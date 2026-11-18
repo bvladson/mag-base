@@ -127,3 +127,11 @@ Alterações só de tema (CSS em `tema-mag/mag/css/`) não precisam de release: 
 ## Licença
 
 O Leantime é AGPL-3.0, sem termos adicionais. Remover a marca é permitido. A licença exige manter o `LICENSE` e os avisos de copyright no código. Como os usuários acessam o sistema pela rede (§13 da AGPL), exige também oferecer a eles o código-fonte da versão modificada, por exemplo com um link "Código-fonte" no rodapé ou no menu de ajuda.
+
+---
+
+## Autoria
+
+Projeto meu — concepção, arquitetura, implementação, implantação e operação em produção.
+Durante o desenvolvimento usei assistentes de IA (Codex e Claude) como ferramenta de apoio;
+a condução e as decisões técnicas são minhas.

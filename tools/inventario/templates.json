@@ -1,0 +1,588 @@
+{
+ "app/Domain/Calendar/Templates/connectCalendar.blade.php": [
+  [
+   "placeholder",
+   "https://example.com/calendar.ics"
+  ]
+ ],
+ "app/Domain/Dashboard/Templates/show.blade.php": [
+  [
+   "texto",
+   "/hx/tickets/milestones/showCard?milestoneId="
+  ]
+ ],
+ "app/Domain/Help/Templates/support.blade.php": [
+  [
+   "texto",
+   "Help us build a future where all minds thrive!"
+  ],
+  [
+   "texto",
+   "Most productivity tools assume everyone thinks the same way: linearly, with perfect focus, motivated by arbitrary deadlines. Whether you have ADHD and need dopamine hits from completed tasks, are autistic and crave consistent structure, have dyslexia and think spatially, or you're just tired of tools that don't match how your brain actually works—you've probably given up on project management entirely."
+  ],
+  [
+   "texto",
+   "We're building Leantime for minds that work differently. That includes neurodivergent brains, but also anyone who's ever felt like existing tools fight against their natural thinking patterns."
+  ],
+  [
+   "texto",
+   "Why Leantime won't disappear"
+  ],
+  [
+   "texto",
+   "6+ years"
+  ],
+  [
+   "texto",
+   "With consistent full time development since 2021."
+  ],
+  [
+   "texto",
+   "Self-funded/Community-funded"
+  ],
+  [
+   "texto",
+   "No VC pressure to pivot or monetize aggressively"
+  ],
+  [
+   "texto",
+   "Core will always remain open source by license"
+  ],
+  [
+   "texto",
+   "How can you help?"
+  ],
+  [
+   "texto",
+   "Direct Sponsorship through Github"
+  ],
+  [
+   "texto",
+   "Fund open source development that benefits everyone"
+  ],
+  [
+   "texto",
+   "Get advanced features while supporting development"
+  ],
+  [
+   "texto",
+   "How does your money help?"
+  ],
+  [
+   "texto",
+   "Funds from"
+  ],
+  [
+   "texto",
+   "New open source features"
+  ],
+  [
+   "texto",
+   "Accessibility improvements"
+  ],
+  [
+   "texto",
+   "Community-requested enhancements"
+  ],
+  [
+   "texto",
+   "Recent impact:"
+  ],
+  [
+   "texto",
+   "Your sponsorships funded our new docker image improvements"
+  ],
+  [
+   "texto",
+   "Funds from"
+  ],
+  [
+   "texto",
+   "Plugin Sales"
+  ],
+  [
+   "texto",
+   "Bug fixes and stability"
+  ],
+  [
+   "texto",
+   "Testing and quality assurance"
+  ],
+  [
+   "texto",
+   "Documentation improvements"
+  ],
+  [
+   "texto",
+   "Recent impact:"
+  ],
+  [
+   "texto",
+   "Funded the My Work dashboard Updates"
+  ],
+  [
+   "texto",
+   "Funds from"
+  ],
+  [
+   "texto",
+   "SaaS Revenue"
+  ],
+  [
+   "texto",
+   "Website hosting"
+  ],
+  [
+   "texto",
+   "Development tools"
+  ],
+  [
+   "texto",
+   "Administrative costs"
+  ],
+  [
+   "texto",
+   "Recent impact:"
+  ],
+  [
+   "texto",
+   "Covers our server cost to host website, cloud and marketplace"
+  ],
+  [
+   "texto",
+   "Your impact in numbers"
+  ],
+  [
+   "texto",
+   "Installations you're supporting"
+  ],
+  [
+   "texto",
+   "Closed Bugs in 2024"
+  ],
+  [
+   "texto",
+   "Languages translated by the community"
+  ],
+  [
+   "texto",
+   "Of sponsorship goes to development"
+  ],
+  [
+   "texto",
+   "Who's behind Leantime?"
+  ],
+  [
+   "texto",
+   "👋 I'm Marcel"
+  ],
+  [
+   "texto",
+   "German immigrant, dad to an autistic daughter, and living with ADHD myself."
+  ],
+  [
+   "texto",
+   "Traditional project management tools never clicked for me. They felt like they were built by neurotypical minds for neurotypical minds. When I was freelancing and struggling to keep client projects organized, I started building something that worked with my brain instead of against it."
+  ],
+  [
+   "texto",
+   "What started as a personal solution became Leantime when I realized millions of others needed the same thing."
+  ],
+  [
+   "texto",
+   "👋 And I'm Gloria"
+  ],
+  [
+   "texto",
+   "Former ER nurse turned product manager, first-generation Hispanic entrepreneur."
+  ],
+  [
+   "texto",
+   "I spent years in high-pressure medical environments where organization literally saves lives. But when I started my own business, traditional project tools felt overwhelming and disconnected from how I actually think and work."
+  ],
+  [
+   "texto",
+   "My background in behavioral science and motivation research drives how we build features that don't just organize tasks—they help you actually want to complete them."
+  ],
+  [
+   "texto",
+   "We can create a world where no one has to fight their tools to do great work. Your sponsorship funds a future where software adapts to human diversity, not the other way around."
+  ],
+  [
+   "texto",
+   "Ready to make a direct impact?"
+  ],
+  [
+   "texto",
+   "Start Sponsoring Today"
+  ]
+ ],
+ "app/Domain/Notifications/Templates/partials/latestNews.blade.php": [
+  [
+   "texto",
+   "Latest From Leantime"
+  ]
+ ],
+ "app/Domain/Plugins/Templates/myapps.blade.php": [
+  [
+   "texto",
+   "My Apps"
+  ],
+  [
+   "texto",
+   "We couldn't discover any new plugins in your plugin folder, please make sure the plugin is unzipped and contains a composer.json file."
+  ],
+  [
+   "headline",
+   "Nothing New"
+  ]
+ ],
+ "app/Domain/Plugins/Templates/partials/installed/plugincontrols.blade.php": [
+  [
+   "texto",
+   "Settings"
+  ],
+  [
+   "texto",
+   "System Plugin, cannot be disabled or removed"
+  ]
+ ],
+ "app/Domain/Plugins/Templates/partials/latestPlugins.blade.php": [
+  [
+   "texto",
+   "Latest Plugin Updates"
+  ],
+  [
+   "texto",
+   "Extend Leantime using our latest plugins."
+  ],
+  [
+   "texto",
+   "Manage Your Apps"
+  ]
+ ],
+ "app/Domain/Plugins/Templates/partials/pluginlist.blade.php": [
+  [
+   "texto",
+   "Due to a global bit shortage our plugins are currently out of stock. We are working hard to get more stock in as soon as possible."
+  ],
+  [
+   "headline",
+   "Out of Stock"
+  ]
+ ],
+ "app/Domain/Plugins/Templates/partials/plugintabs.blade.php": [
+  [
+   "texto",
+   "My Apps"
+  ]
+ ],
+ "app/Domain/Plugins/Templates/plugindetails.blade.php": [
+  [
+   "texto",
+   "Rating:"
+  ],
+  [
+   "texto",
+   "Categories:"
+  ],
+  [
+   "texto",
+   "Tags:"
+  ],
+  [
+   "texto",
+   "Overview"
+  ],
+  [
+   "texto",
+   "Plugin Version:"
+  ],
+  [
+   "texto",
+   "Compatible With Leantime Versions:"
+  ],
+  [
+   "texto",
+   "Get a license"
+  ],
+  [
+   "texto",
+   "This plugin currently isn't available for purchase."
+  ],
+  [
+   "texto",
+   "Install"
+  ],
+  [
+   "texto",
+   "This plugin currently isn't available for installation."
+  ],
+  [
+   "label",
+   "Plugin details sections"
+  ],
+  [
+   "placeholder",
+   "License Key"
+  ]
+ ],
+ "app/Domain/Projects/Templates/showProject.blade.php": [
+  [
+   "texto",
+   "Telegram"
+  ],
+  [
+   "alt",
+   "Logo do Telegram"
+  ]
+ ],
+ "app/Domain/Tickets/Templates/componentTest.blade.php": [
+  [
+   "texto",
+   "Swimlane Component Test"
+  ],
+  [
+   "texto",
+   "Swimlane Row Header Components Test"
+  ],
+  [
+   "texto",
+   "Testing all new Blade components before integration"
+  ],
+  [
+   "texto",
+   "ThermometerIcon (Priority)"
+  ],
+  [
+   "texto",
+   "Critical (1):"
+  ],
+  [
+   "texto",
+   "High (2):"
+  ],
+  [
+   "texto",
+   "Medium (3):"
+  ],
+  [
+   "texto",
+   "Low (4):"
+  ],
+  [
+   "texto",
+   "With labels:"
+  ],
+  [
+   "texto",
+   "TShirtIcon (Effort)"
+  ],
+  [
+   "texto",
+   "UserAvatar (with consistent color generation)"
+  ],
+  [
+   "texto",
+   "Unassigned (MD):"
+  ],
+  [
+   "texto",
+   "Note: Each username gets a consistent color. Same user = same color every time."
+  ],
+  [
+   "texto",
+   "Due Soon:"
+  ],
+  [
+   "texto",
+   "Overdue:"
+  ],
+  [
+   "texto",
+   "Supporting Icons"
+  ],
+  [
+   "texto",
+   "Milestone 🎯:"
+  ],
+  [
+   "texto",
+   "Feature ✨:"
+  ],
+  [
+   "texto",
+   "Status Breakdown (50% New, 30% In Progress, 20% Done)"
+  ],
+  [
+   "texto",
+   "Different Distribution (70% New, 20% In Progress, 10% Done)"
+  ],
+  [
+   "texto",
+   "All Statuses"
+  ],
+  [
+   "texto",
+   "3. CountBadge Color Variations"
+  ],
+  [
+   "texto",
+   "Small Count (1-9) - Light Olive"
+  ],
+  [
+   "texto",
+   "Medium Count (10-99) - Medium Olive"
+  ],
+  [
+   "texto",
+   "Large Count (100+) - Dark Olive"
+  ],
+  [
+   "texto",
+   "4. Complete SwimLaneRowHeader Components (Matching Design)"
+  ],
+  [
+   "texto",
+   "EXPANDED vs COLLAPSED States"
+  ],
+  [
+   "texto",
+   "Expanded (shows progress bar)"
+  ],
+  [
+   "texto",
+   "Collapsed (USER groupby)"
+  ],
+  [
+   "texto",
+   "Collapsed (EFFORT groupby)"
+  ],
+  [
+   "texto",
+   "GROUP BY: EFFORT"
+  ],
+  [
+   "texto",
+   "GROUP BY: MILESTONE"
+  ],
+  [
+   "texto",
+   "GROUP BY: SPRINT"
+  ],
+  [
+   "texto",
+   "💡 Design Notes:"
+  ],
+  [
+   "texto",
+   "Two states only:"
+  ],
+  [
+   "texto",
+   "Expanded (shows progress bar) and Collapsed (hides progress bar)"
+  ],
+  [
+   "texto",
+   "Label text always visible"
+  ],
+  [
+   "texto",
+   "in both states - only progress bar toggles"
+  ],
+  [
+   "texto",
+   "Count badge styling differs by state:"
+  ],
+  [
+   "texto",
+   "Expanded: Olive green background badge"
+  ],
+  [
+   "texto",
+   "Collapsed: Plain number (no background)"
+  ],
+  [
+   "texto",
+   "Better spacing and alignment in both states"
+  ],
+  [
+   "texto",
+   "Time indicators (⏳⏰💤) inline with label row"
+  ],
+  [
+   "texto",
+   "Milestone dates show on hover only (not displayed on card)"
+  ],
+  [
+   "texto",
+   "Icons match design: 🎯 for milestones, 🏃 for sprints, 👕 for effort"
+  ],
+  [
+   "texto",
+   "Smooth transition animation between states (0.2s ease)"
+  ],
+  [
+   "texto",
+   "5. Design Tokens (CSS Variables)"
+  ],
+  [
+   "texto",
+   "Priority Colors"
+  ],
+  [
+   "texto",
+   "Critical"
+  ],
+  [
+   "texto",
+   "High"
+  ],
+  [
+   "texto",
+   "Medium"
+  ],
+  [
+   "texto",
+   "Low"
+  ],
+  [
+   "label",
+   "Q1 Launch"
+  ],
+  [
+   "label",
+   "User Research"
+  ],
+  [
+   "label",
+   "No Milestone"
+  ]
+ ],
+ "app/Domain/Tickets/Templates/submodules/ticketFilter.blade.php": [
+  [
+   "texto",
+   "Todos os status"
+  ]
+ ],
+ "app/Domain/Widgets/Templates/partials/todoItem.blade.php": [
+  [
+   "texto",
+   "/hx/tickets/milestones/progress?milestoneId="
+  ]
+ ],
+ "app/Views/Templates/layouts/registration.blade.php": [
+  [
+   "texto",
+   "Sign Up"
+  ],
+  [
+   "texto",
+   "No set up required!"
+  ],
+  [
+   "texto",
+   "Enjoy the extra time. 🎉"
+  ]
+ ]
+}

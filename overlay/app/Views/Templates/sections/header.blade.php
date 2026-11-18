@@ -1,0 +1,188 @@
+<title>@dispatchFilter('page_title', $sitename)</title>
+
+<meta name="csrf-token" content="{{ csrf_token() }}">
+<meta name="requestId" content="{{ \Illuminate\Support\Str::random(4) }}">
+<meta name="description" content="{{ $sitename }}">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-touch-fullscreen" content="yes">
+<meta name="theme-color" content="{{ $primaryColor }}">
+<meta name="color-scheme" content="{{ $themeColorMode === 'system' ? 'light dark' : $themeColorMode }}">
+<meta name="theme" content="{{ $theme }}">
+<meta name="identifier-URL" content="{!! BASE_URL !!}">
+<meta name="leantime-version" content="{{ $version }}">
+
+@dispatchEvent('afterMetaTags')
+
+<link rel="icon" type="image/png" href="{!! BASE_URL !!}/dist/images/mag/favicon.png"/>
+<link rel="apple-touch-icon" href="{!! BASE_URL !!}/dist/images/mag/apple-touch-icon.png">
+
+@php
+    // Cache-buster: the filenames only change per app version, so rebuilds of
+    // the SAME version were served stale from browser cache (no query hash in
+    // the mix manifest — core mix does not version() the css). The bundle's
+    // mtime changes on every build, which busts exactly when needed.
+    $mainCssPath = APP_ROOT.'/public/dist/css/main.'.$version.'.min.css';
+    $cssBust = is_file($mainCssPath) ? filemtime($mainCssPath) : $version;
+@endphp
+<link rel="stylesheet" href="{!! BASE_URL !!}/dist/css/main.{!! $version !!}.min.css?v={!! $cssBust !!}"/>
+<link rel="stylesheet" href="{!! BASE_URL !!}/dist/css/app.{!! $version !!}.min.css?v={!! $cssBust !!}"/>
+@if($tpl->needsComponent('tiptap'))
+<link rel="stylesheet" href="{!! BASE_URL !!}/dist/css/tiptap-editor.{!! $version !!}.min.css?v={!! $cssBust !!}"/>
+<link rel="stylesheet" href="{!! BASE_URL !!}/dist/css/katex.min.css?v={!! $cssBust !!}"/>
+@endif
+
+@dispatchEvent('afterLinkTags')
+
+@php
+    // MAG: a base MAG altera bundles e textos sem mudar a versão do app, e o Nginx serve /dist/
+    // com cache de 7 dias. A data de modificação na URL faz o navegador buscar a versão nova.
+    $magV = static function (string $bundle) use ($version) {
+        $caminho = APP_ROOT.'/public/dist/js/'.$bundle.'.'.$version.'.min.js';
+
+        return is_file($caminho) ? filemtime($caminho) : $version;
+    };
+    $magIdioma = APP_ROOT.'/custom/Language/pt-BR.ini';
+    $magI18nV = $version.(is_file($magIdioma) ? '-'.filemtime($magIdioma) : '');
+@endphp
+<script src="{!! BASE_URL !!}/api/i18n?v={!! $magI18nV !!}"></script>
+
+<script src="{!! BASE_URL !!}/dist/js/compiled-htmx.{!! $version !!}.min.js?v={!! $magV('compiled-htmx') !!}"></script>
+<script src="{!! BASE_URL !!}/dist/js/compiled-htmx-extensions.{!! $version !!}.min.js?v={!! $magV('compiled-htmx-extensions') !!}"></script>
+
+<!-- libs -->
+<script src="{!! BASE_URL !!}/dist/js/compiled-frameworks.{!! $version !!}.min.js?v={!! $magV('compiled-frameworks') !!}"></script>
+<script src="{!! BASE_URL !!}/dist/js/compiled-framework-plugins.{!! $version !!}.min.js?v={!! $magV('compiled-framework-plugins') !!}"></script>
+<script src="{!! BASE_URL !!}/dist/js/compiled-global-component.{!! $version !!}.min.js?v={!! $magV('compiled-global-component') !!}"></script>
+{{-- Feature-component libraries are leaf bundles used only inside controller
+     functions that run on/after DOMContentLoaded (e.g. initCalendar()), never at
+     module-load. Deferring them keeps these heavy bundles (the tiptap editor alone
+     is ~6.8MB) from blocking first render; deferred scripts still execute before
+     DOMContentLoaded, so the init handlers find them ready. --}}
+@if($tpl->needsComponent('calendar'))
+<script defer src="{!! BASE_URL !!}/dist/js/compiled-calendar-component.{!! $version !!}.min.js?v={!! $magV('compiled-calendar-component') !!}"></script>
+@php
+    // MAG: padrões dos calendários (idioma, expediente, feriados, cores). Deferido logo após o
+    // componente, roda antes de qualquer tela criar um calendário; mtime como cache-bust.
+    $magCalendarioPath = APP_ROOT.'/public/dist/js/mag-calendario.js';
+    $magCalendarioBust = is_file($magCalendarioPath) ? filemtime($magCalendarioPath) : $version;
+@endphp
+<script defer src="{!! BASE_URL !!}/dist/js/mag-calendario.js?v={!! $magCalendarioBust !!}"></script>
+@endif
+@if($tpl->needsComponent('table'))
+<script defer src="{!! BASE_URL !!}/dist/js/compiled-table-component.{!! $version !!}.min.js?v={!! $magV('compiled-table-component') !!}"></script>
+@endif
+@if($tpl->needsComponent('tiptap'))
+<script defer src="{!! BASE_URL !!}/dist/js/compiled-tiptap-toolbar.{!! $version !!}.min.js?v={!! $magV('compiled-tiptap-toolbar') !!}"></script>
+<script defer src="{!! BASE_URL !!}/dist/js/compiled-tiptap-editor.{!! $version !!}.min.js?v={!! $magV('compiled-tiptap-editor') !!}"></script>
+@endif
+@if($tpl->needsComponent('gantt'))
+<script defer src="{!! BASE_URL !!}/dist/js/compiled-gantt-component.{!! $version !!}.min.js?v={!! $magV('compiled-gantt-component') !!}"></script>
+@endif
+@if($tpl->needsComponent('chart'))
+<script defer src="{!! BASE_URL !!}/dist/js/compiled-chart-component.{!! $version !!}.min.js?v={!! $magV('compiled-chart-component') !!}"></script>
+@endif
+
+@dispatchEvent('afterScriptLibTags')
+
+<!-- app -->
+<script src="{!! BASE_URL !!}/dist/js/compiled-app.{!! $version !!}.min.js?v={!! $magV('compiled-app') !!}"></script>
+@dispatchEvent('afterMainScriptTag')
+
+<!--
+//For future file based ref js loading
+<script src="{!! BASE_URL !!}/dist/js/{{ ucwords(\Leantime\Core\Controller\Frontcontroller::getModuleName()) }}/Js/{{ \Leantime\Core\Controller\Frontcontroller::getModuleName() }}Controller.js"></script>
+-->
+
+<!-- theme & custom -->
+{{-- Theme js/css are optional: Theme::getAssetPath() returns FALSE when the
+     file doesn't exist (the default theme ships no js at all). Rendering that
+     as src=""/href="" makes the browser re-request the current page and try to
+     execute the HTML as a script ("Refused to execute script ... MIME type
+     ('text/html')"), so skip missing assets entirely. --}}
+@foreach ($themeScripts as $script)
+    @if(! empty($script))
+        <script src="{!! $script !!}"></script>
+    @endif
+@endforeach
+
+@foreach ($themeStyles as $style)
+    @if(! empty($style['url']))
+        <link rel="stylesheet" @isset($style['id']) id="{{{ $style['id'] }}}" @endisset @isset($style['media']) media="{{ $style['media'] }}" @endisset href="{!! $style['url'] !!}"/>
+    @endif
+@endforeach
+
+@dispatchEvent('afterScriptsAndStyles')
+
+<!-- Replace main theme colors -->
+@php
+    // The nav bar sets white controls on the accent gradient. A light accent is
+    // a mid-tone that fails WCAG AA for white text; detect that per-theme and
+    // enable a dark scrim only then, so dark-accent themes stay fully vivid.
+    $navNeedsScrim = false;
+    foreach ($accents as $accentColor) {
+        // No usable accent value here — nothing to reason about, skip.
+        if ($accentColor === false || $accentColor === null || $accentColor === '') {
+            continue;
+        }
+        // A real accent we can't parse as 6-digit hex (e.g. rgb()/hsl()/named
+        // colors): we can't measure its luminance, so fail closed and enable the
+        // scrim to protect white nav-text contrast rather than assuming it's safe.
+        if (! is_string($accentColor) || ! preg_match('/^#?([0-9a-fA-F]{6})$/', $accentColor, $accentHex)) {
+            $navNeedsScrim = true;
+            break;
+        }
+        [$ar, $ag, $ab] = sscanf($accentHex[1], '%02x%02x%02x');
+        $linChannel = static fn ($v) => ($v /= 255) <= 0.03928 ? $v / 12.92 : (($v + 0.055) / 1.055) ** 2.4;
+        $accentLum = 0.2126 * $linChannel($ar) + 0.7152 * $linChannel($ag) + 0.0722 * $linChannel($ab);
+        if (1.05 / ($accentLum + 0.05) < 4.5) { // white-on-accent below AA
+            $navNeedsScrim = true;
+            break;
+        }
+    }
+@endphp
+<style id="colorSchemeSetter">
+    :root { --nav-scrim: {{ $navNeedsScrim ? '0.22' : '0' }}; }
+    @foreach ($accents as $accent)
+        @if($accent !== false)
+            :root {
+                --accent{{ $loop->iteration }}: {{{ $accent }}};
+            }
+        @endif
+    @endforeach
+</style>
+
+<style id="fontStyleSetter">
+    :root {
+        --primary-font-family: '{{{ $themeFont }}}', 'Helvetica Neue', Helvetica, sans-serif;
+    }
+</style>
+
+
+<style id="backgroundImageSetter">
+    @if(!empty($themeBg))
+            .rightpanel {
+                background-image: url({!! filter_var($themeBg, FILTER_SANITIZE_URL) !!});
+                opacity: {{ $themeOpacity }};
+                mix-blend-mode: {{ $themeType == 'image' ? 'normal' : 'multiply' }};
+                background-size: var(--background-size, cover);
+                background-position: center;
+                background-attachment: fixed;
+            }
+
+    @if($themeType === 'image')
+        .rightpanel:before {
+            background: none;
+        }
+    @endif
+    @endif
+</style>
+
+
+@dispatchEvent('afterThemeColors')
+
+
+<script>
+    window.leantime.currentProject = '{{ session("currentProject") }}';
+</script>

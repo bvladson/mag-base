@@ -1,0 +1,28 @@
+{
+ "login": {
+  "status": 200,
+  "bundles": 13,
+  "sem_cache_bust": [
+   "compiled-footer.3.10.0.min.js"
+  ],
+  "alterados_sem_cache_bust": [],
+  "i18n_url": "/api/i18n?v=3.10.0-1790626664"
+ },
+ "bundles": {
+  "compiled-app.3.10.0.min.js": "200 traduzido (igual ao overlay)",
+  "compiled-framework-plugins.3.10.0.min.js": "200 traduzido (igual ao overlay)",
+  "compiled-global-component.3.10.0.min.js": "200 traduzido (igual ao overlay)",
+  "compiled-tiptap-editor.3.10.0.min.js": "200 traduzido (igual ao overlay)",
+  "compiled-tiptap-toolbar.3.10.0.min.js": "200 traduzido (igual ao overlay)",
+  "mag-calendario.js": "200 traduzido (igual ao overlay)"
+ },
+ "i18n": {
+  "status": 200,
+  "chaves_servidas": 2969,
+  "chaves_esperadas": 2909,
+  "ainda_em_ingles": 0,
+  "exemplos_em_ingles": {},
+  "divergentes_do_esperado": 0,
+  "exemplos_divergentes": {}
+ }
+}

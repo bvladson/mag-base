@@ -1,0 +1,4322 @@
+{
+ "compiled-app.3.10.0.min.js": [
+  [
+   "message",
+   "To-Do Updated"
+  ],
+  [
+   "text",
+   "Line Chart"
+  ]
+ ],
+ "compiled-framework-plugins.3.10.0.min.js": [
+  [
+   "title",
+   "Removing tag"
+  ]
+ ],
+ "compiled-global-component.3.10.0.min.js": [
+  [
+   "text",
+   "uppy-u-reset uppy-c-textInput uppy-Dashboard-FileCard-input"
+  ],
+  [
+   "label",
+   "Close Tour"
+  ],
+  [
+   "html",
+   "<ul class='jstree-container-ul jstree-children' role='group'><li id='j"
+  ],
+  [
+   "title",
+   "fas fa-address-book"
+  ],
+  [
+   "title",
+   "far fa-address-book"
+  ],
+  [
+   "title",
+   "fas fa-address-card"
+  ],
+  [
+   "title",
+   "far fa-address-card"
+  ],
+  [
+   "title",
+   "fas fa-adjust"
+  ],
+  [
+   "title",
+   "fas fa-align-center"
+  ],
+  [
+   "title",
+   "fas fa-align-left"
+  ],
+  [
+   "title",
+   "fas fa-align-right"
+  ],
+  [
+   "title",
+   "fas fa-american-sign-language-interpreting"
+  ],
+  [
+   "title",
+   "fas fa-angle-double-down"
+  ],
+  [
+   "title",
+   "fas fa-angle-double-left"
+  ],
+  [
+   "title",
+   "fas fa-angle-double-right"
+  ],
+  [
+   "title",
+   "fas fa-angle-double-up"
+  ],
+  [
+   "title",
+   "fas fa-angle-down"
+  ],
+  [
+   "title",
+   "fas fa-angle-left"
+  ],
+  [
+   "title",
+   "fas fa-angle-right"
+  ],
+  [
+   "title",
+   "fas fa-angle-up"
+  ],
+  [
+   "title",
+   "far fa-angry"
+  ],
+  [
+   "title",
+   "fas fa-archive"
+  ],
+  [
+   "title",
+   "fas fa-arrow-alt-circle-down"
+  ],
+  [
+   "title",
+   "far fa-arrow-alt-circle-down"
+  ],
+  [
+   "title",
+   "fas fa-arrow-alt-circle-left"
+  ],
+  [
+   "title",
+   "far fa-arrow-alt-circle-left"
+  ],
+  [
+   "title",
+   "fas fa-arrow-alt-circle-right"
+  ],
+  [
+   "title",
+   "far fa-arrow-alt-circle-right"
+  ],
+  [
+   "title",
+   "fas fa-arrow-alt-circle-up"
+  ],
+  [
+   "title",
+   "far fa-arrow-alt-circle-up"
+  ],
+  [
+   "title",
+   "fas fa-arrow-circle-down"
+  ],
+  [
+   "title",
+   "fas fa-arrow-circle-left"
+  ],
+  [
+   "title",
+   "fas fa-arrow-circle-right"
+  ],
+  [
+   "title",
+   "fas fa-arrow-circle-up"
+  ],
+  [
+   "title",
+   "fas fa-arrow-down"
+  ],
+  [
+   "title",
+   "fas fa-arrow-left"
+  ],
+  [
+   "title",
+   "fas fa-arrow-right"
+  ],
+  [
+   "title",
+   "fas fa-arrow-up"
+  ],
+  [
+   "title",
+   "fas fa-at"
+  ],
+  [
+   "title",
+   "fas fa-audio-description"
+  ],
+  [
+   "title",
+   "fas fa-balance-scale"
+  ],
+  [
+   "title",
+   "fas fa-battery-empty"
+  ],
+  [
+   "title",
+   "fas fa-battery-full"
+  ],
+  [
+   "title",
+   "fas fa-battery-half"
+  ],
+  [
+   "title",
+   "fas fa-battery-quarter"
+  ],
+  [
+   "title",
+   "fas fa-battery-three-quarters"
+  ],
+  [
+   "title",
+   "far fa-bell"
+  ],
+  [
+   "title",
+   "far fa-bell-slash"
+  ],
+  [
+   "title",
+   "fas fa-blender-phone"
+  ],
+  [
+   "title",
+   "fas fa-book"
+  ],
+  [
+   "title",
+   "fas fa-book-dead"
+  ],
+  [
+   "title",
+   "fas fa-book-open"
+  ],
+  [
+   "title",
+   "fas fa-book-reader"
+  ],
+  [
+   "title",
+   "far fa-bookmark"
+  ],
+  [
+   "title",
+   "fas fa-box-open"
+  ],
+  [
+   "title",
+   "fas fa-brain"
+  ],
+  [
+   "title",
+   "fas fa-building"
+  ],
+  [
+   "title",
+   "far fa-building"
+  ],
+  [
+   "title",
+   "fas fa-burn"
+  ],
+  [
+   "title",
+   "fas fa-business-time"
+  ],
+  [
+   "title",
+   "far fa-calendar"
+  ],
+  [
+   "title",
+   "far fa-calendar-alt"
+  ],
+  [
+   "title",
+   "fas fa-calendar-check"
+  ],
+  [
+   "title",
+   "far fa-calendar-check"
+  ],
+  [
+   "title",
+   "far fa-calendar-minus"
+  ],
+  [
+   "title",
+   "far fa-calendar-plus"
+  ],
+  [
+   "title",
+   "fas fa-calendar-times"
+  ],
+  [
+   "title",
+   "far fa-calendar-times"
+  ],
+  [
+   "title",
+   "fas fa-car-side"
+  ],
+  [
+   "title",
+   "fas fa-caret-down"
+  ],
+  [
+   "title",
+   "fas fa-caret-left"
+  ],
+  [
+   "title",
+   "fas fa-caret-right"
+  ],
+  [
+   "title",
+   "fas fa-caret-square-down"
+  ],
+  [
+   "title",
+   "far fa-caret-square-down"
+  ],
+  [
+   "title",
+   "fas fa-caret-square-left"
+  ],
+  [
+   "title",
+   "far fa-caret-square-left"
+  ],
+  [
+   "title",
+   "fas fa-caret-square-right"
+  ],
+  [
+   "title",
+   "far fa-caret-square-right"
+  ],
+  [
+   "title",
+   "fas fa-caret-square-up"
+  ],
+  [
+   "title",
+   "far fa-caret-square-up"
+  ],
+  [
+   "title",
+   "fas fa-caret-up"
+  ],
+  [
+   "title",
+   "fas fa-cart-arrow-down"
+  ],
+  [
+   "title",
+   "fab fa-cc-discover"
+  ],
+  [
+   "title",
+   "fas fa-chart-area"
+  ],
+  [
+   "title",
+   "fas fa-chart-bar"
+  ],
+  [
+   "title",
+   "far fa-chart-bar"
+  ],
+  [
+   "title",
+   "fas fa-chart-line"
+  ],
+  [
+   "title",
+   "fas fa-chart-pie"
+  ],
+  [
+   "title",
+   "fas fa-check"
+  ],
+  [
+   "title",
+   "fas fa-check-circle"
+  ],
+  [
+   "title",
+   "far fa-check-circle"
+  ],
+  [
+   "title",
+   "fas fa-check-double"
+  ],
+  [
+   "title",
+   "fas fa-check-square"
+  ],
+  [
+   "title",
+   "far fa-check-square"
+  ],
+  [
+   "title",
+   "fas fa-chess-board"
+  ],
+  [
+   "title",
+   "fas fa-chevron-circle-down"
+  ],
+  [
+   "title",
+   "fas fa-chevron-circle-left"
+  ],
+  [
+   "title",
+   "fas fa-chevron-circle-right"
+  ],
+  [
+   "title",
+   "fas fa-chevron-circle-up"
+  ],
+  [
+   "title",
+   "fas fa-chevron-down"
+  ],
+  [
+   "title",
+   "fas fa-chevron-left"
+  ],
+  [
+   "title",
+   "fas fa-chevron-right"
+  ],
+  [
+   "title",
+   "fas fa-chevron-up"
+  ],
+  [
+   "title",
+   "fas fa-child"
+  ],
+  [
+   "title",
+   "far fa-circle"
+  ],
+  [
+   "title",
+   "fas fa-city"
+  ],
+  [
+   "title",
+   "fas fa-clipboard"
+  ],
+  [
+   "title",
+   "far fa-clipboard"
+  ],
+  [
+   "title",
+   "fas fa-clipboard-check"
+  ],
+  [
+   "title",
+   "fas fa-clipboard-list"
+  ],
+  [
+   "title",
+   "far fa-clock"
+  ],
+  [
+   "title",
+   "far fa-clone"
+  ],
+  [
+   "title",
+   "fas fa-closed-captioning"
+  ],
+  [
+   "title",
+   "far fa-closed-captioning"
+  ],
+  [
+   "title",
+   "fas fa-cloud-download-alt"
+  ],
+  [
+   "title",
+   "fas fa-cloud-sun"
+  ],
+  [
+   "title",
+   "fas fa-cloud-sun-rain"
+  ],
+  [
+   "title",
+   "fas fa-cloud-upload-alt"
+  ],
+  [
+   "title",
+   "fas fa-coffee"
+  ],
+  [
+   "title",
+   "fas fa-columns"
+  ],
+  [
+   "title",
+   "fas fa-comment"
+  ],
+  [
+   "title",
+   "far fa-comment"
+  ],
+  [
+   "title",
+   "fas fa-comment-alt"
+  ],
+  [
+   "title",
+   "far fa-comment-alt"
+  ],
+  [
+   "title",
+   "fas fa-comment-dollar"
+  ],
+  [
+   "title",
+   "fas fa-comment-dots"
+  ],
+  [
+   "title",
+   "far fa-comment-dots"
+  ],
+  [
+   "title",
+   "fas fa-comment-slash"
+  ],
+  [
+   "title",
+   "fas fa-comments"
+  ],
+  [
+   "title",
+   "far fa-comments"
+  ],
+  [
+   "title",
+   "fas fa-comments-dollar"
+  ],
+  [
+   "title",
+   "far fa-compass"
+  ],
+  [
+   "title",
+   "fas fa-copy"
+  ],
+  [
+   "title",
+   "far fa-copy"
+  ],
+  [
+   "title",
+   "far fa-copyright"
+  ],
+  [
+   "title",
+   "fab fa-creative-commons-by"
+  ],
+  [
+   "title",
+   "fab fa-creative-commons-sa"
+  ],
+  [
+   "title",
+   "fas fa-credit-card"
+  ],
+  [
+   "title",
+   "far fa-credit-card"
+  ],
+  [
+   "title",
+   "fab fa-critical-role"
+  ],
+  [
+   "title",
+   "fas fa-cross"
+  ],
+  [
+   "title",
+   "fas fa-cut"
+  ],
+  [
+   "title",
+   "fab fa-d-and-d"
+  ],
+  [
+   "title",
+   "fab fa-d-and-d-beyond"
+  ],
+  [
+   "title",
+   "fas fa-database"
+  ],
+  [
+   "title",
+   "fas fa-dice-four"
+  ],
+  [
+   "title",
+   "fas fa-dice-one"
+  ],
+  [
+   "title",
+   "fas fa-dice-six"
+  ],
+  [
+   "title",
+   "fas fa-dice-two"
+  ],
+  [
+   "title",
+   "far fa-dizzy"
+  ],
+  [
+   "title",
+   "fas fa-dollar-sign"
+  ],
+  [
+   "title",
+   "fas fa-door-closed"
+  ],
+  [
+   "title",
+   "fas fa-door-open"
+  ],
+  [
+   "title",
+   "far fa-dot-circle"
+  ],
+  [
+   "title",
+   "fas fa-download"
+  ],
+  [
+   "title",
+   "fab fa-draft2digital"
+  ],
+  [
+   "title",
+   "fas fa-draw-polygon"
+  ],
+  [
+   "title",
+   "fas fa-edit"
+  ],
+  [
+   "title",
+   "far fa-edit"
+  ],
+  [
+   "title",
+   "far fa-envelope"
+  ],
+  [
+   "title",
+   "fas fa-envelope-open"
+  ],
+  [
+   "title",
+   "far fa-envelope-open"
+  ],
+  [
+   "title",
+   "fas fa-envelope-open-text"
+  ],
+  [
+   "title",
+   "fas fa-euro-sign"
+  ],
+  [
+   "title",
+   "fas fa-exchange-alt"
+  ],
+  [
+   "title",
+   "fas fa-expand"
+  ],
+  [
+   "title",
+   "fas fa-expand-arrows-alt"
+  ],
+  [
+   "title",
+   "fas fa-external-link-alt"
+  ],
+  [
+   "title",
+   "fas fa-external-link-square-alt"
+  ],
+  [
+   "title",
+   "far fa-eye"
+  ],
+  [
+   "title",
+   "far fa-eye-slash"
+  ],
+  [
+   "title",
+   "fab fa-fantasy-flight-games"
+  ],
+  [
+   "title",
+   "fas fa-fast-forward"
+  ],
+  [
+   "title",
+   "fas fa-file"
+  ],
+  [
+   "title",
+   "far fa-file"
+  ],
+  [
+   "title",
+   "fas fa-file-alt"
+  ],
+  [
+   "title",
+   "far fa-file-alt"
+  ],
+  [
+   "title",
+   "fas fa-file-archive"
+  ],
+  [
+   "title",
+   "far fa-file-archive"
+  ],
+  [
+   "title",
+   "fas fa-file-audio"
+  ],
+  [
+   "title",
+   "far fa-file-audio"
+  ],
+  [
+   "title",
+   "fas fa-file-code"
+  ],
+  [
+   "title",
+   "far fa-file-code"
+  ],
+  [
+   "title",
+   "fas fa-file-contract"
+  ],
+  [
+   "title",
+   "fas fa-file-csv"
+  ],
+  [
+   "title",
+   "fas fa-file-download"
+  ],
+  [
+   "title",
+   "fas fa-file-excel"
+  ],
+  [
+   "title",
+   "far fa-file-excel"
+  ],
+  [
+   "title",
+   "fas fa-file-export"
+  ],
+  [
+   "title",
+   "fas fa-file-image"
+  ],
+  [
+   "title",
+   "far fa-file-image"
+  ],
+  [
+   "title",
+   "fas fa-file-import"
+  ],
+  [
+   "title",
+   "fas fa-file-invoice"
+  ],
+  [
+   "title",
+   "fas fa-file-invoice-dollar"
+  ],
+  [
+   "title",
+   "fas fa-file-medical"
+  ],
+  [
+   "title",
+   "fas fa-file-medical-alt"
+  ],
+  [
+   "title",
+   "fas fa-file-pdf"
+  ],
+  [
+   "title",
+   "far fa-file-pdf"
+  ],
+  [
+   "title",
+   "fas fa-file-powerpoint"
+  ],
+  [
+   "title",
+   "far fa-file-powerpoint"
+  ],
+  [
+   "title",
+   "fas fa-file-prescription"
+  ],
+  [
+   "title",
+   "fas fa-file-signature"
+  ],
+  [
+   "title",
+   "fas fa-file-upload"
+  ],
+  [
+   "title",
+   "fas fa-file-video"
+  ],
+  [
+   "title",
+   "far fa-file-video"
+  ],
+  [
+   "title",
+   "fas fa-file-word"
+  ],
+  [
+   "title",
+   "far fa-file-word"
+  ],
+  [
+   "title",
+   "fas fa-fill"
+  ],
+  [
+   "title",
+   "fas fa-fill-drip"
+  ],
+  [
+   "title",
+   "fas fa-filter"
+  ],
+  [
+   "title",
+   "fas fa-first-aid"
+  ],
+  [
+   "title",
+   "fab fa-first-order"
+  ],
+  [
+   "title",
+   "fab fa-first-order-alt"
+  ],
+  [
+   "title",
+   "far fa-flag"
+  ],
+  [
+   "title",
+   "far fa-flushed"
+  ],
+  [
+   "title",
+   "far fa-folder"
+  ],
+  [
+   "title",
+   "fas fa-folder-open"
+  ],
+  [
+   "title",
+   "far fa-folder-open"
+  ],
+  [
+   "title",
+   "fas fa-font"
+  ],
+  [
+   "title",
+   "fab fa-font-awesome"
+  ],
+  [
+   "title",
+   "fab fa-font-awesome-alt"
+  ],
+  [
+   "title",
+   "fab fa-font-awesome-flag"
+  ],
+  [
+   "title",
+   "far fa-font-awesome-logo-full"
+  ],
+  [
+   "title",
+   "fas fa-font-awesome-logo-full"
+  ],
+  [
+   "title",
+   "fab fa-font-awesome-logo-full"
+  ],
+  [
+   "title",
+   "fas fa-forward"
+  ],
+  [
+   "title",
+   "far fa-frown"
+  ],
+  [
+   "title",
+   "fas fa-frown-open"
+  ],
+  [
+   "title",
+   "far fa-frown-open"
+  ],
+  [
+   "title",
+   "far fa-futbol"
+  ],
+  [
+   "title",
+   "far fa-gem"
+  ],
+  [
+   "title",
+   "fab fa-get-pocket"
+  ],
+  [
+   "title",
+   "fab fa-google-drive"
+  ],
+  [
+   "title",
+   "fas fa-graduation-cap"
+  ],
+  [
+   "title",
+   "fas fa-greater-than"
+  ],
+  [
+   "title",
+   "fas fa-greater-than-equal"
+  ],
+  [
+   "title",
+   "far fa-grimace"
+  ],
+  [
+   "title",
+   "far fa-grin"
+  ],
+  [
+   "title",
+   "far fa-grin-alt"
+  ],
+  [
+   "title",
+   "far fa-grin-beam"
+  ],
+  [
+   "title",
+   "far fa-grin-beam-sweat"
+  ],
+  [
+   "title",
+   "far fa-grin-hearts"
+  ],
+  [
+   "title",
+   "far fa-grin-squint"
+  ],
+  [
+   "title",
+   "far fa-grin-squint-tears"
+  ],
+  [
+   "title",
+   "far fa-grin-stars"
+  ],
+  [
+   "title",
+   "far fa-grin-tears"
+  ],
+  [
+   "title",
+   "far fa-grin-tongue"
+  ],
+  [
+   "title",
+   "far fa-grin-tongue-squint"
+  ],
+  [
+   "title",
+   "far fa-grin-tongue-wink"
+  ],
+  [
+   "title",
+   "far fa-grin-wink"
+  ],
+  [
+   "title",
+   "fab fa-hacker-news"
+  ],
+  [
+   "title",
+   "fab fa-hacker-news-square"
+  ],
+  [
+   "title",
+   "fas fa-hand-holding"
+  ],
+  [
+   "title",
+   "fas fa-hand-holding-heart"
+  ],
+  [
+   "title",
+   "fas fa-hand-holding-usd"
+  ],
+  [
+   "title",
+   "fas fa-hand-lizard"
+  ],
+  [
+   "title",
+   "far fa-hand-lizard"
+  ],
+  [
+   "title",
+   "fas fa-hand-paper"
+  ],
+  [
+   "title",
+   "far fa-hand-paper"
+  ],
+  [
+   "title",
+   "fas fa-hand-peace"
+  ],
+  [
+   "title",
+   "far fa-hand-peace"
+  ],
+  [
+   "title",
+   "fas fa-hand-point-down"
+  ],
+  [
+   "title",
+   "far fa-hand-point-down"
+  ],
+  [
+   "title",
+   "fas fa-hand-point-left"
+  ],
+  [
+   "title",
+   "far fa-hand-point-left"
+  ],
+  [
+   "title",
+   "fas fa-hand-point-right"
+  ],
+  [
+   "title",
+   "far fa-hand-point-right"
+  ],
+  [
+   "title",
+   "fas fa-hand-point-up"
+  ],
+  [
+   "title",
+   "far fa-hand-point-up"
+  ],
+  [
+   "title",
+   "fas fa-hand-pointer"
+  ],
+  [
+   "title",
+   "far fa-hand-pointer"
+  ],
+  [
+   "title",
+   "fas fa-hand-rock"
+  ],
+  [
+   "title",
+   "far fa-hand-rock"
+  ],
+  [
+   "title",
+   "fas fa-hand-scissors"
+  ],
+  [
+   "title",
+   "far fa-hand-scissors"
+  ],
+  [
+   "title",
+   "fas fa-hand-spock"
+  ],
+  [
+   "title",
+   "far fa-hand-spock"
+  ],
+  [
+   "title",
+   "far fa-handshake"
+  ],
+  [
+   "title",
+   "far fa-hdd"
+  ],
+  [
+   "title",
+   "fas fa-heart"
+  ],
+  [
+   "title",
+   "far fa-heart"
+  ],
+  [
+   "title",
+   "fas fa-home"
+  ],
+  [
+   "title",
+   "far fa-hospital"
+  ],
+  [
+   "title",
+   "far fa-hourglass"
+  ],
+  [
+   "title",
+   "fas fa-hourglass-end"
+  ],
+  [
+   "title",
+   "fas fa-hourglass-half"
+  ],
+  [
+   "title",
+   "fas fa-hourglass-start"
+  ],
+  [
+   "title",
+   "far fa-id-badge"
+  ],
+  [
+   "title",
+   "fas fa-id-card"
+  ],
+  [
+   "title",
+   "far fa-id-card"
+  ],
+  [
+   "title",
+   "fas fa-id-card-alt"
+  ],
+  [
+   "title",
+   "far fa-image"
+  ],
+  [
+   "title",
+   "far fa-images"
+  ],
+  [
+   "title",
+   "fas fa-industry"
+  ],
+  [
+   "title",
+   "fas fa-info"
+  ],
+  [
+   "title",
+   "fas fa-info-circle"
+  ],
+  [
+   "title",
+   "fab fa-itunes-note"
+  ],
+  [
+   "title",
+   "fab fa-jedi-order"
+  ],
+  [
+   "title",
+   "fas fa-key"
+  ],
+  [
+   "title",
+   "far fa-keyboard"
+  ],
+  [
+   "title",
+   "far fa-kiss"
+  ],
+  [
+   "title",
+   "far fa-kiss-beam"
+  ],
+  [
+   "title",
+   "fas fa-kiss-wink-heart"
+  ],
+  [
+   "title",
+   "far fa-kiss-wink-heart"
+  ],
+  [
+   "title",
+   "fas fa-language"
+  ],
+  [
+   "title",
+   "far fa-laugh"
+  ],
+  [
+   "title",
+   "far fa-laugh-beam"
+  ],
+  [
+   "title",
+   "far fa-laugh-squint"
+  ],
+  [
+   "title",
+   "far fa-laugh-wink"
+  ],
+  [
+   "title",
+   "fas fa-layer-group"
+  ],
+  [
+   "title",
+   "far fa-lemon"
+  ],
+  [
+   "title",
+   "fab fa-less"
+  ],
+  [
+   "title",
+   "fas fa-less-than"
+  ],
+  [
+   "title",
+   "fas fa-less-than-equal"
+  ],
+  [
+   "title",
+   "fas fa-level-down-alt"
+  ],
+  [
+   "title",
+   "fas fa-level-up-alt"
+  ],
+  [
+   "title",
+   "fas fa-life-ring"
+  ],
+  [
+   "title",
+   "far fa-life-ring"
+  ],
+  [
+   "title",
+   "far fa-lightbulb"
+  ],
+  [
+   "title",
+   "fab fa-line"
+  ],
+  [
+   "title",
+   "fab fa-linkedin-in"
+  ],
+  [
+   "title",
+   "fas fa-lira-sign"
+  ],
+  [
+   "title",
+   "fas fa-list"
+  ],
+  [
+   "title",
+   "fas fa-list-alt"
+  ],
+  [
+   "title",
+   "far fa-list-alt"
+  ],
+  [
+   "title",
+   "fas fa-list-ol"
+  ],
+  [
+   "title",
+   "fas fa-list-ul"
+  ],
+  [
+   "title",
+   "fas fa-location-arrow"
+  ],
+  [
+   "title",
+   "fas fa-lock-open"
+  ],
+  [
+   "title",
+   "fas fa-long-arrow-alt-down"
+  ],
+  [
+   "title",
+   "fas fa-long-arrow-alt-left"
+  ],
+  [
+   "title",
+   "fas fa-long-arrow-alt-right"
+  ],
+  [
+   "title",
+   "fas fa-long-arrow-alt-up"
+  ],
+  [
+   "title",
+   "fas fa-low-vision"
+  ],
+  [
+   "title",
+   "fas fa-map"
+  ],
+  [
+   "title",
+   "far fa-map"
+  ],
+  [
+   "title",
+   "fas fa-map-marked"
+  ],
+  [
+   "title",
+   "fas fa-map-marked-alt"
+  ],
+  [
+   "title",
+   "fas fa-map-marker"
+  ],
+  [
+   "title",
+   "fas fa-map-marker-alt"
+  ],
+  [
+   "title",
+   "fas fa-map-pin"
+  ],
+  [
+   "title",
+   "fas fa-map-signs"
+  ],
+  [
+   "title",
+   "fab fa-medium"
+  ],
+  [
+   "title",
+   "fab fa-medium-m"
+  ],
+  [
+   "title",
+   "far fa-meh"
+  ],
+  [
+   "title",
+   "fas fa-meh-blank"
+  ],
+  [
+   "title",
+   "far fa-meh-blank"
+  ],
+  [
+   "title",
+   "far fa-meh-rolling-eyes"
+  ],
+  [
+   "title",
+   "far fa-minus-square"
+  ],
+  [
+   "title",
+   "fas fa-money-bill"
+  ],
+  [
+   "title",
+   "fas fa-money-bill-alt"
+  ],
+  [
+   "title",
+   "far fa-money-bill-alt"
+  ],
+  [
+   "title",
+   "fas fa-money-bill-wave"
+  ],
+  [
+   "title",
+   "fas fa-money-bill-wave-alt"
+  ],
+  [
+   "title",
+   "fas fa-money-check"
+  ],
+  [
+   "title",
+   "fas fa-money-check-alt"
+  ],
+  [
+   "title",
+   "far fa-moon"
+  ],
+  [
+   "title",
+   "fas fa-network-wired"
+  ],
+  [
+   "title",
+   "far fa-newspaper"
+  ],
+  [
+   "title",
+   "fab fa-nintendo-switch"
+  ],
+  [
+   "title",
+   "fas fa-not-equal"
+  ],
+  [
+   "title",
+   "fas fa-notes-medical"
+  ],
+  [
+   "title",
+   "fas fa-object-group"
+  ],
+  [
+   "title",
+   "far fa-object-group"
+  ],
+  [
+   "title",
+   "far fa-object-ungroup"
+  ],
+  [
+   "title",
+   "fas fa-oil-can"
+  ],
+  [
+   "title",
+   "fab fa-old-republic"
+  ],
+  [
+   "title",
+   "fab fa-page4"
+  ],
+  [
+   "title",
+   "far fa-paper-plane"
+  ],
+  [
+   "title",
+   "fas fa-paste"
+  ],
+  [
+   "title",
+   "far fa-pause-circle"
+  ],
+  [
+   "title",
+   "fas fa-people-carry"
+  ],
+  [
+   "title",
+   "fas fa-percent"
+  ],
+  [
+   "title",
+   "fas fa-person-booth"
+  ],
+  [
+   "title",
+   "fas fa-phone"
+  ],
+  [
+   "title",
+   "fas fa-phone-slash"
+  ],
+  [
+   "title",
+   "fas fa-phone-square"
+  ],
+  [
+   "title",
+   "fas fa-phone-volume"
+  ],
+  [
+   "title",
+   "fas fa-place-of-worship"
+  ],
+  [
+   "title",
+   "far fa-play-circle"
+  ],
+  [
+   "title",
+   "far fa-plus-square"
+  ],
+  [
+   "title",
+   "fas fa-pound-sign"
+  ],
+  [
+   "title",
+   "fas fa-power-off"
+  ],
+  [
+   "title",
+   "fas fa-print"
+  ],
+  [
+   "title",
+   "fab fa-product-hunt"
+  ],
+  [
+   "title",
+   "fas fa-project-diagram"
+  ],
+  [
+   "title",
+   "fas fa-puzzle-piece"
+  ],
+  [
+   "title",
+   "fas fa-question"
+  ],
+  [
+   "title",
+   "fas fa-question-circle"
+  ],
+  [
+   "title",
+   "far fa-question-circle"
+  ],
+  [
+   "title",
+   "fas fa-quote-left"
+  ],
+  [
+   "title",
+   "fas fa-quote-right"
+  ],
+  [
+   "title",
+   "fab fa-r-project"
+  ],
+  [
+   "title",
+   "fab fa-red-river"
+  ],
+  [
+   "title",
+   "fas fa-registered"
+  ],
+  [
+   "title",
+   "far fa-registered"
+  ],
+  [
+   "title",
+   "fas fa-reply"
+  ],
+  [
+   "title",
+   "fas fa-reply-all"
+  ],
+  [
+   "title",
+   "fas fa-road"
+  ],
+  [
+   "title",
+   "fas fa-ruble-sign"
+  ],
+  [
+   "title",
+   "fas fa-ruler-combined"
+  ],
+  [
+   "title",
+   "fas fa-running"
+  ],
+  [
+   "title",
+   "fas fa-rupee-sign"
+  ],
+  [
+   "title",
+   "far fa-sad-cry"
+  ],
+  [
+   "title",
+   "far fa-sad-tear"
+  ],
+  [
+   "title",
+   "fas fa-save"
+  ],
+  [
+   "title",
+   "far fa-save"
+  ],
+  [
+   "title",
+   "fas fa-scroll"
+  ],
+  [
+   "title",
+   "fas fa-search"
+  ],
+  [
+   "title",
+   "fas fa-search-dollar"
+  ],
+  [
+   "title",
+   "fas fa-search-location"
+  ],
+  [
+   "title",
+   "fas fa-search-minus"
+  ],
+  [
+   "title",
+   "fas fa-search-plus"
+  ],
+  [
+   "title",
+   "far fa-share-square"
+  ],
+  [
+   "title",
+   "fas fa-shekel-sign"
+  ],
+  [
+   "title",
+   "fas fa-sign"
+  ],
+  [
+   "title",
+   "fas fa-sign-in-alt"
+  ],
+  [
+   "title",
+   "fas fa-sign-language"
+  ],
+  [
+   "title",
+   "fas fa-sign-out-alt"
+  ],
+  [
+   "title",
+   "fas fa-signature"
+  ],
+  [
+   "title",
+   "far fa-smile"
+  ],
+  [
+   "title",
+   "far fa-smile-beam"
+  ],
+  [
+   "title",
+   "far fa-smile-wink"
+  ],
+  [
+   "title",
+   "far fa-snowflake"
+  ],
+  [
+   "title",
+   "fas fa-sort"
+  ],
+  [
+   "title",
+   "fas fa-sort-alpha-down"
+  ],
+  [
+   "title",
+   "fas fa-sort-alpha-up"
+  ],
+  [
+   "title",
+   "fas fa-sort-amount-down"
+  ],
+  [
+   "title",
+   "fas fa-sort-amount-up"
+  ],
+  [
+   "title",
+   "fas fa-sort-down"
+  ],
+  [
+   "title",
+   "fas fa-sort-numeric-down"
+  ],
+  [
+   "title",
+   "fas fa-sort-numeric-up"
+  ],
+  [
+   "title",
+   "fas fa-sort-up"
+  ],
+  [
+   "title",
+   "fas fa-spray-can"
+  ],
+  [
+   "title",
+   "far fa-square"
+  ],
+  [
+   "title",
+   "fas fa-square-full"
+  ],
+  [
+   "title",
+   "fab fa-stack-exchange"
+  ],
+  [
+   "title",
+   "far fa-star"
+  ],
+  [
+   "title",
+   "fas fa-star-and-crescent"
+  ],
+  [
+   "title",
+   "fas fa-star-half"
+  ],
+  [
+   "title",
+   "far fa-star-half"
+  ],
+  [
+   "title",
+   "fas fa-star-half-alt"
+  ],
+  [
+   "title",
+   "fas fa-star-of-david"
+  ],
+  [
+   "title",
+   "fas fa-star-of-life"
+  ],
+  [
+   "title",
+   "fas fa-step-backward"
+  ],
+  [
+   "title",
+   "fas fa-step-forward"
+  ],
+  [
+   "title",
+   "fas fa-sticky-note"
+  ],
+  [
+   "title",
+   "far fa-sticky-note"
+  ],
+  [
+   "title",
+   "fas fa-stop"
+  ],
+  [
+   "title",
+   "fas fa-stop-circle"
+  ],
+  [
+   "title",
+   "far fa-stop-circle"
+  ],
+  [
+   "title",
+   "fas fa-street-view"
+  ],
+  [
+   "title",
+   "fas fa-sun"
+  ],
+  [
+   "title",
+   "far fa-sun"
+  ],
+  [
+   "title",
+   "far fa-surprise"
+  ],
+  [
+   "title",
+   "fas fa-table"
+  ],
+  [
+   "title",
+   "fas fa-table-tennis"
+  ],
+  [
+   "title",
+   "fas fa-tag"
+  ],
+  [
+   "title",
+   "fas fa-tags"
+  ],
+  [
+   "title",
+   "fas fa-tasks"
+  ],
+  [
+   "title",
+   "fas fa-teeth-open"
+  ],
+  [
+   "title",
+   "fab fa-telegram"
+  ],
+  [
+   "title",
+   "fab fa-telegram-plane"
+  ],
+  [
+   "title",
+   "fas fa-temperature-high"
+  ],
+  [
+   "title",
+   "fas fa-temperature-low"
+  ],
+  [
+   "title",
+   "fas fa-text-height"
+  ],
+  [
+   "title",
+   "fas fa-text-width"
+  ],
+  [
+   "title",
+   "fas fa-th"
+  ],
+  [
+   "title",
+   "fas fa-th-large"
+  ],
+  [
+   "title",
+   "fas fa-th-list"
+  ],
+  [
+   "title",
+   "fab fa-the-red-yeti"
+  ],
+  [
+   "title",
+   "fas fa-thermometer-empty"
+  ],
+  [
+   "title",
+   "fas fa-thermometer-full"
+  ],
+  [
+   "title",
+   "fas fa-thermometer-half"
+  ],
+  [
+   "title",
+   "fas fa-thermometer-quarter"
+  ],
+  [
+   "title",
+   "fas fa-thermometer-three-quarters"
+  ],
+  [
+   "title",
+   "fab fa-think-peaks"
+  ],
+  [
+   "title",
+   "fas fa-thumbs-down"
+  ],
+  [
+   "title",
+   "far fa-thumbs-down"
+  ],
+  [
+   "title",
+   "fas fa-thumbs-up"
+  ],
+  [
+   "title",
+   "far fa-thumbs-up"
+  ],
+  [
+   "title",
+   "fas fa-times"
+  ],
+  [
+   "title",
+   "fas fa-times-circle"
+  ],
+  [
+   "title",
+   "far fa-times-circle"
+  ],
+  [
+   "title",
+   "far fa-tired"
+  ],
+  [
+   "title",
+   "fas fa-toggle-off"
+  ],
+  [
+   "title",
+   "fas fa-toggle-on"
+  ],
+  [
+   "title",
+   "fas fa-traffic-light"
+  ],
+  [
+   "title",
+   "far fa-trash-alt"
+  ],
+  [
+   "title",
+   "fas fa-truck-loading"
+  ],
+  [
+   "title",
+   "fas fa-truck-moving"
+  ],
+  [
+   "title",
+   "fas fa-universal-access"
+  ],
+  [
+   "title",
+   "fas fa-unlock"
+  ],
+  [
+   "title",
+   "fas fa-unlock-alt"
+  ],
+  [
+   "title",
+   "fas fa-upload"
+  ],
+  [
+   "title",
+   "fas fa-user"
+  ],
+  [
+   "title",
+   "far fa-user"
+  ],
+  [
+   "title",
+   "fas fa-user-alt"
+  ],
+  [
+   "title",
+   "fas fa-user-alt-slash"
+  ],
+  [
+   "title",
+   "fas fa-user-astronaut"
+  ],
+  [
+   "title",
+   "fas fa-user-check"
+  ],
+  [
+   "title",
+   "fas fa-user-circle"
+  ],
+  [
+   "title",
+   "far fa-user-circle"
+  ],
+  [
+   "title",
+   "fas fa-user-clock"
+  ],
+  [
+   "title",
+   "fas fa-user-cog"
+  ],
+  [
+   "title",
+   "fas fa-user-edit"
+  ],
+  [
+   "title",
+   "fas fa-user-friends"
+  ],
+  [
+   "title",
+   "fas fa-user-graduate"
+  ],
+  [
+   "title",
+   "fas fa-user-injured"
+  ],
+  [
+   "title",
+   "fas fa-user-lock"
+  ],
+  [
+   "title",
+   "fas fa-user-md"
+  ],
+  [
+   "title",
+   "fas fa-user-minus"
+  ],
+  [
+   "title",
+   "fas fa-user-ninja"
+  ],
+  [
+   "title",
+   "fas fa-user-plus"
+  ],
+  [
+   "title",
+   "fas fa-user-secret"
+  ],
+  [
+   "title",
+   "fas fa-user-shield"
+  ],
+  [
+   "title",
+   "fas fa-user-slash"
+  ],
+  [
+   "title",
+   "fas fa-user-tag"
+  ],
+  [
+   "title",
+   "fas fa-user-tie"
+  ],
+  [
+   "title",
+   "fas fa-user-times"
+  ],
+  [
+   "title",
+   "fas fa-users"
+  ],
+  [
+   "title",
+   "fas fa-users-cog"
+  ],
+  [
+   "title",
+   "fas fa-video"
+  ],
+  [
+   "title",
+   "fas fa-video-slash"
+  ],
+  [
+   "title",
+   "fas fa-volume-down"
+  ],
+  [
+   "title",
+   "fas fa-volume-mute"
+  ],
+  [
+   "title",
+   "fas fa-volume-off"
+  ],
+  [
+   "title",
+   "fas fa-volume-up"
+  ],
+  [
+   "title",
+   "fas fa-window-close"
+  ],
+  [
+   "title",
+   "far fa-window-close"
+  ],
+  [
+   "title",
+   "far fa-window-maximize"
+  ],
+  [
+   "title",
+   "fas fa-window-minimize"
+  ],
+  [
+   "title",
+   "far fa-window-minimize"
+  ],
+  [
+   "title",
+   "far fa-window-restore"
+  ],
+  [
+   "title",
+   "fab fa-wizards-of-the-coast"
+  ],
+  [
+   "title",
+   "fas fa-won-sign"
+  ],
+  [
+   "title",
+   "fab fa-wordpress-simple"
+  ],
+  [
+   "title",
+   "fas fa-yen-sign"
+  ],
+  [
+   "title",
+   "Grinning Face with Big Eyes"
+  ],
+  [
+   "title",
+   "Grinning Face with Smiling Eyes"
+  ],
+  [
+   "title",
+   "Beaming Face with Smiling Eyes"
+  ],
+  [
+   "title",
+   "Grinning Face with Sweat"
+  ],
+  [
+   "title",
+   "Rolling on the Floor Laughing"
+  ],
+  [
+   "title",
+   "Face with Tears of Joy"
+  ],
+  [
+   "title",
+   "Upside-Down Face"
+  ],
+  [
+   "title",
+   "Smiling Face with Smiling Eyes"
+  ],
+  [
+   "title",
+   "Smiling Face with Halo"
+  ],
+  [
+   "title",
+   "Smiling Face with Hearts"
+  ],
+  [
+   "title",
+   "Smiling Face with Heart-Eyes"
+  ],
+  [
+   "title",
+   "Kissing Face with Closed Eyes"
+  ],
+  [
+   "title",
+   "Kissing Face with Smiling Eyes"
+  ],
+  [
+   "title",
+   "Smiling Face with Tear"
+  ],
+  [
+   "title",
+   "Face with Tongue"
+  ],
+  [
+   "title",
+   "Winking Face with Tongue"
+  ],
+  [
+   "title",
+   "Squinting Face with Tongue"
+  ],
+  [
+   "title",
+   "Money-Mouth Face"
+  ],
+  [
+   "title",
+   "Smiling Face with Open Hands"
+  ],
+  [
+   "title",
+   "Face with Hand Over Mouth"
+  ],
+  [
+   "title",
+   "Face with Raised Eyebrow"
+  ],
+  [
+   "title",
+   "Face Without Mouth"
+  ],
+  [
+   "title",
+   "Face in Clouds"
+  ],
+  [
+   "title",
+   "Face with Rolling Eyes"
+  ],
+  [
+   "title",
+   "Face with Medical Mask"
+  ],
+  [
+   "title",
+   "Face with Thermometer"
+  ],
+  [
+   "title",
+   "Face with Head-Bandage"
+  ],
+  [
+   "title",
+   "Face with Crossed-Out Eyes"
+  ],
+  [
+   "title",
+   "Face with Spiral Eyes"
+  ],
+  [
+   "title",
+   "Exploding Head"
+  ],
+  [
+   "title",
+   "Smiling Face with Sunglasses"
+  ],
+  [
+   "title",
+   "Face with Monocle"
+  ],
+  [
+   "title",
+   "Face with Open Mouth"
+  ],
+  [
+   "title",
+   "Frowning Face with Open Mouth"
+  ],
+  [
+   "title",
+   "Anxious Face with Sweat"
+  ],
+  [
+   "title",
+   "Sad but Relieved Face"
+  ],
+  [
+   "title",
+   "Face Screaming in Fear"
+  ],
+  [
+   "title",
+   "Downcast Face with Sweat"
+  ],
+  [
+   "title",
+   "Face with Steam From Nose"
+  ],
+  [
+   "title",
+   "Face with Symbols on Mouth"
+  ],
+  [
+   "title",
+   "Smiling Face with Horns"
+  ],
+  [
+   "title",
+   "Angry Face with Horns"
+  ],
+  [
+   "title",
+   "Skull and Crossbones"
+  ],
+  [
+   "title",
+   "Pile of Poo"
+  ],
+  [
+   "title",
+   "Grinning Cat with Smiling Eyes"
+  ],
+  [
+   "title",
+   "Cat with Tears of Joy"
+  ],
+  [
+   "title",
+   "Smiling Cat with Heart-Eyes"
+  ],
+  [
+   "title",
+   "Cat with Wry Smile"
+  ],
+  [
+   "title",
+   "Waving Hand"
+  ],
+  [
+   "title",
+   "Raised Back of Hand"
+  ],
+  [
+   "title",
+   "Hand with Fingers Splayed"
+  ],
+  [
+   "title",
+   "Raised Hand"
+  ],
+  [
+   "title",
+   "Pinching Hand"
+  ],
+  [
+   "title",
+   "Victory Hand"
+  ],
+  [
+   "title",
+   "Love-You Gesture"
+  ],
+  [
+   "title",
+   "Sign of the Horns"
+  ],
+  [
+   "title",
+   "Call Me Hand"
+  ],
+  [
+   "title",
+   "Backhand Index Pointing Left"
+  ],
+  [
+   "title",
+   "Backhand Index Pointing Right"
+  ],
+  [
+   "title",
+   "Backhand Index Pointing Up"
+  ],
+  [
+   "title",
+   "Backhand Index Pointing Down"
+  ],
+  [
+   "title",
+   "Index Pointing Up"
+  ],
+  [
+   "title",
+   "Thumbs Up"
+  ],
+  [
+   "title",
+   "Thumbs Down"
+  ],
+  [
+   "title",
+   "Left-Facing Fist"
+  ],
+  [
+   "title",
+   "Right-Facing Fist"
+  ],
+  [
+   "title",
+   "Open Hands"
+  ],
+  [
+   "title",
+   "Palms Up Together"
+  ],
+  [
+   "title",
+   "Writing Hand"
+  ],
+  [
+   "title",
+   "Ear with Hearing Aid"
+  ],
+  [
+   "title",
+   "Anatomical Heart"
+  ],
+  [
+   "title",
+   "Person: Blond Hair"
+  ],
+  [
+   "title",
+   "Man: Red Hair"
+  ],
+  [
+   "title",
+   "Woman: Red Hair"
+  ],
+  [
+   "title",
+   "Person: Red Hair"
+  ],
+  [
+   "title",
+   "Person: Curly Hair"
+  ],
+  [
+   "title",
+   "Person: White Hair"
+  ],
+  [
+   "title",
+   "Older Person"
+  ],
+  [
+   "title",
+   "Old Man"
+  ],
+  [
+   "title",
+   "Old Woman"
+  ],
+  [
+   "title",
+   "Person Frowning"
+  ],
+  [
+   "title",
+   "Person Pouting"
+  ],
+  [
+   "title",
+   "Person Gesturing No"
+  ],
+  [
+   "title",
+   "Person Gesturing OK"
+  ],
+  [
+   "title",
+   "Person Tipping Hand"
+  ],
+  [
+   "title",
+   "Man Tipping Hand"
+  ],
+  [
+   "title",
+   "Woman Tipping Hand"
+  ],
+  [
+   "title",
+   "Person Raising Hand"
+  ],
+  [
+   "title",
+   "Man Raising Hand"
+  ],
+  [
+   "title",
+   "Woman Raising Hand"
+  ],
+  [
+   "title",
+   "Deaf Person"
+  ],
+  [
+   "title",
+   "Person Bowing"
+  ],
+  [
+   "title",
+   "Person Facepalming"
+  ],
+  [
+   "title",
+   "Person Shrugging"
+  ],
+  [
+   "title",
+   "Health Worker"
+  ],
+  [
+   "title",
+   "Man Health Worker"
+  ],
+  [
+   "title",
+   "Woman Health Worker"
+  ],
+  [
+   "title",
+   "Office Worker"
+  ],
+  [
+   "title",
+   "Man Office Worker"
+  ],
+  [
+   "title",
+   "Woman Office Worker"
+  ],
+  [
+   "title",
+   "Person Wearing Turban"
+  ],
+  [
+   "title",
+   "Person with Skullcap"
+  ],
+  [
+   "title",
+   "Woman with Headscarf"
+  ],
+  [
+   "title",
+   "Person in Tuxedo"
+  ],
+  [
+   "title",
+   "Man in Tuxedo"
+  ],
+  [
+   "title",
+   "Woman in Tuxedo"
+  ],
+  [
+   "title",
+   "Person with Veil"
+  ],
+  [
+   "title",
+   "Man with Veil"
+  ],
+  [
+   "title",
+   "Woman with Veil"
+  ],
+  [
+   "title",
+   "Person Feeding Baby"
+  ],
+  [
+   "title",
+   "Person Getting Massage"
+  ],
+  [
+   "title",
+   "Man Getting Massage"
+  ],
+  [
+   "title",
+   "Woman Getting Massage"
+  ],
+  [
+   "title",
+   "Person Getting Haircut"
+  ],
+  [
+   "title",
+   "Man Getting Haircut"
+  ],
+  [
+   "title",
+   "Woman Getting Haircut"
+  ],
+  [
+   "title",
+   "Person Walking"
+  ],
+  [
+   "title",
+   "Person Standing"
+  ],
+  [
+   "title",
+   "Person Kneeling"
+  ],
+  [
+   "title",
+   "Person with White Cane"
+  ],
+  [
+   "title",
+   "Man with White Cane"
+  ],
+  [
+   "title",
+   "Woman with White Cane"
+  ],
+  [
+   "title",
+   "Person in Motorized Wheelchair"
+  ],
+  [
+   "title",
+   "Man in Motorized Wheelchair"
+  ],
+  [
+   "title",
+   "Woman in Motorized Wheelchair"
+  ],
+  [
+   "title",
+   "Person in Manual Wheelchair"
+  ],
+  [
+   "title",
+   "Man in Manual Wheelchair"
+  ],
+  [
+   "title",
+   "Woman in Manual Wheelchair"
+  ],
+  [
+   "title",
+   "Person Running"
+  ],
+  [
+   "title",
+   "Man Running"
+  ],
+  [
+   "title",
+   "Woman Running"
+  ],
+  [
+   "title",
+   "Person in Suit Levitating"
+  ],
+  [
+   "title",
+   "People with Bunny Ears"
+  ],
+  [
+   "title",
+   "Men with Bunny Ears"
+  ],
+  [
+   "title",
+   "Women with Bunny Ears"
+  ],
+  [
+   "title",
+   "Person in Steamy Room"
+  ],
+  [
+   "title",
+   "Man in Steamy Room"
+  ],
+  [
+   "title",
+   "Woman in Steamy Room"
+  ],
+  [
+   "title",
+   "Person in Lotus Position"
+  ],
+  [
+   "title",
+   "People Holding Hands"
+  ],
+  [
+   "title",
+   "Woman and Man Holding Hands"
+  ],
+  [
+   "title",
+   "Couple with Heart"
+  ],
+  [
+   "title",
+   "Couple with Heart: Woman, Man"
+  ],
+  [
+   "title",
+   "Couple with Heart: Man, Man"
+  ],
+  [
+   "title",
+   "Couple with Heart: Woman, Woman"
+  ],
+  [
+   "title",
+   "Speaking Head"
+  ],
+  [
+   "title",
+   "Bust in Silhouette"
+  ],
+  [
+   "title",
+   "Busts in Silhouette"
+  ],
+  [
+   "title",
+   "People Hugging"
+  ],
+  [
+   "title",
+   "Closed Umbrella"
+  ],
+  [
+   "title",
+   "One-Piece Swimsuit"
+  ],
+  [
+   "title",
+   "Running Shoe"
+  ],
+  [
+   "title",
+   "High-Heeled Shoe"
+  ],
+  [
+   "title",
+   "Top Hat"
+  ],
+  [
+   "title",
+   "Graduation Cap"
+  ],
+  [
+   "title",
+   "Billed Cap"
+  ],
+  [
+   "title",
+   "Drop of Blood"
+  ],
+  [
+   "title",
+   "See-No-Evil Monkey"
+  ],
+  [
+   "title",
+   "Hear-No-Evil Monkey"
+  ],
+  [
+   "title",
+   "Guide Dog"
+  ],
+  [
+   "title",
+   "Service Dog"
+  ],
+  [
+   "title",
+   "Two-Hump Camel"
+  ],
+  [
+   "title",
+   "Sheaf of Rice"
+  ],
+  [
+   "title",
+   "Four Leaf Clover"
+  ],
+  [
+   "title",
+   "Leaf Fluttering in Wind"
+  ],
+  [
+   "title",
+   "Globe Showing Europe-Africa"
+  ],
+  [
+   "title",
+   "Globe Showing Americas"
+  ],
+  [
+   "title",
+   "Globe Showing Asia-Australia"
+  ],
+  [
+   "title",
+   "Globe with Meridians"
+  ],
+  [
+   "title",
+   "New Moon"
+  ],
+  [
+   "title",
+   "First Quarter Moon"
+  ],
+  [
+   "title",
+   "Full Moon"
+  ],
+  [
+   "title",
+   "Last Quarter Moon"
+  ],
+  [
+   "title",
+   "New Moon Face"
+  ],
+  [
+   "title",
+   "First Quarter Moon Face"
+  ],
+  [
+   "title",
+   "Last Quarter Moon Face"
+  ],
+  [
+   "title",
+   "Full Moon Face"
+  ],
+  [
+   "title",
+   "Sun with Face"
+  ],
+  [
+   "title",
+   "Sun Behind Cloud"
+  ],
+  [
+   "title",
+   "Cloud with Lightning and Rain"
+  ],
+  [
+   "title",
+   "Sun Behind Small Cloud"
+  ],
+  [
+   "title",
+   "Sun Behind Large Cloud"
+  ],
+  [
+   "title",
+   "Sun Behind Rain Cloud"
+  ],
+  [
+   "title",
+   "Cloud with Rain"
+  ],
+  [
+   "title",
+   "Cloud with Snow"
+  ],
+  [
+   "title",
+   "Cloud with Lightning"
+  ],
+  [
+   "title",
+   "Umbrella with Rain Drops"
+  ],
+  [
+   "title",
+   "High Voltage"
+  ],
+  [
+   "title",
+   "Snowman Without Snow"
+  ],
+  [
+   "title",
+   "Red Apple"
+  ],
+  [
+   "title",
+   "Green Apple"
+  ],
+  [
+   "title",
+   "Ear of Corn"
+  ],
+  [
+   "title",
+   "Leafy Green"
+  ],
+  [
+   "title",
+   "Meat on Bone"
+  ],
+  [
+   "title",
+   "Cut of Meat"
+  ],
+  [
+   "title",
+   "Shallow Pan of Food"
+  ],
+  [
+   "title",
+   "Pot of Food"
+  ],
+  [
+   "title",
+   "Bowl with Spoon"
+  ],
+  [
+   "title",
+   "Green Salad"
+  ],
+  [
+   "title",
+   "Fish Cake with Swirl"
+  ],
+  [
+   "title",
+   "Chocolate Bar"
+  ],
+  [
+   "title",
+   "Glass of Milk"
+  ],
+  [
+   "title",
+   "Teacup Without Handle"
+  ],
+  [
+   "title",
+   "Bottle with Popping Cork"
+  ],
+  [
+   "title",
+   "Tropical Drink"
+  ],
+  [
+   "title",
+   "Cup with Straw"
+  ],
+  [
+   "title",
+   "Fork and Knife with Plate"
+  ],
+  [
+   "title",
+   "Fork and Knife"
+  ],
+  [
+   "title",
+   "Person Climbing"
+  ],
+  [
+   "title",
+   "Person Fencing"
+  ],
+  [
+   "title",
+   "Person Golfing"
+  ],
+  [
+   "title",
+   "Person Surfing"
+  ],
+  [
+   "title",
+   "Person Rowing Boat"
+  ],
+  [
+   "title",
+   "Person Swimming"
+  ],
+  [
+   "title",
+   "Person Bouncing Ball"
+  ],
+  [
+   "title",
+   "Person Lifting Weights"
+  ],
+  [
+   "title",
+   "Person Biking"
+  ],
+  [
+   "title",
+   "Person Mountain Biking"
+  ],
+  [
+   "title",
+   "Person Cartwheeling"
+  ],
+  [
+   "title",
+   "People Wrestling"
+  ],
+  [
+   "title",
+   "Person Playing Water Polo"
+  ],
+  [
+   "title",
+   "Person Playing Handball"
+  ],
+  [
+   "title",
+   "Person Juggling"
+  ],
+  [
+   "title",
+   "Man in Lotus Position"
+  ],
+  [
+   "title",
+   "Woman in Lotus Position"
+  ],
+  [
+   "title",
+   "1st Place Medal"
+  ],
+  [
+   "title",
+   "2nd Place Medal"
+  ],
+  [
+   "title",
+   "3rd Place Medal"
+  ],
+  [
+   "title",
+   "Field Hockey"
+  ],
+  [
+   "title",
+   "Goal Net"
+  ],
+  [
+   "title",
+   "Flag in Hole"
+  ],
+  [
+   "title",
+   "Running Shirt"
+  ],
+  [
+   "title",
+   "Video Game"
+  ],
+  [
+   "title",
+   "Slot Machine"
+  ],
+  [
+   "title",
+   "Puzzle Piece"
+  ],
+  [
+   "title",
+   "Performing Arts"
+  ],
+  [
+   "title",
+   "Long Drum"
+  ],
+  [
+   "title",
+   "Clapper Board"
+  ],
+  [
+   "title",
+   "Bow and Arrow"
+  ],
+  [
+   "title",
+   "Map of Japan"
+  ],
+  [
+   "title",
+   "Beach with Umbrella"
+  ],
+  [
+   "title",
+   "Classical Building"
+  ],
+  [
+   "title",
+   "Building Construction"
+  ],
+  [
+   "title",
+   "House with Garden"
+  ],
+  [
+   "title",
+   "Office Building"
+  ],
+  [
+   "title",
+   "Japanese Post Office"
+  ],
+  [
+   "title",
+   "Post Office"
+  ],
+  [
+   "title",
+   "Department Store"
+  ],
+  [
+   "title",
+   "Japanese Castle"
+  ],
+  [
+   "title",
+   "Statue of Liberty"
+  ],
+  [
+   "title",
+   "Night with Stars"
+  ],
+  [
+   "title",
+   "Sunrise Over Mountains"
+  ],
+  [
+   "title",
+   "Cityscape at Dusk"
+  ],
+  [
+   "title",
+   "Bridge at Night"
+  ],
+  [
+   "title",
+   "High-Speed Train"
+  ],
+  [
+   "title",
+   "Light Rail"
+  ],
+  [
+   "title",
+   "Delivery Truck"
+  ],
+  [
+   "title",
+   "Auto Rickshaw"
+  ],
+  [
+   "title",
+   "Kick Scooter"
+  ],
+  [
+   "title",
+   "Bus Stop"
+  ],
+  [
+   "title",
+   "Railway Track"
+  ],
+  [
+   "title",
+   "Police Car Light"
+  ],
+  [
+   "title",
+   "Horizontal Traffic Light"
+  ],
+  [
+   "title",
+   "Vertical Traffic Light"
+  ],
+  [
+   "title",
+   "Small Airplane"
+  ],
+  [
+   "title",
+   "Milky Way"
+  ],
+  [
+   "title",
+   "Umbrella on Ground"
+  ],
+  [
+   "title",
+   "Moon Viewing Ceremony"
+  ],
+  [
+   "title",
+   "Passport Control"
+  ],
+  [
+   "title",
+   "Left Luggage"
+  ],
+  [
+   "title",
+   "Love Letter"
+  ],
+  [
+   "title",
+   "Person Taking Bath"
+  ],
+  [
+   "title",
+   "Person in Bed"
+  ],
+  [
+   "title",
+   "World Map"
+  ],
+  [
+   "title",
+   "Hourglass Done"
+  ],
+  [
+   "title",
+   "Hourglass Not Done"
+  ],
+  [
+   "title",
+   "Party Popper"
+  ],
+  [
+   "title",
+   "Japanese Dolls"
+  ],
+  [
+   "title",
+   "Red Envelope"
+  ],
+  [
+   "title",
+   "Framed Picture"
+  ],
+  [
+   "title",
+   "Sewing Needle"
+  ],
+  [
+   "title",
+   "Level Slider"
+  ],
+  [
+   "title",
+   "Control Knobs"
+  ],
+  [
+   "title",
+   "Mobile Phone"
+  ],
+  [
+   "title",
+   "Mobile Phone with Arrow"
+  ],
+  [
+   "title",
+   "Camera with Flash"
+  ],
+  [
+   "title",
+   "Video Camera"
+  ],
+  [
+   "title",
+   "Magnifying Glass Tilted Left"
+  ],
+  [
+   "title",
+   "Magnifying Glass Tilted Right"
+  ],
+  [
+   "title",
+   "Light Bulb"
+  ],
+  [
+   "title",
+   "Red Paper Lantern"
+  ],
+  [
+   "title",
+   "Notebook with Decorative Cover"
+  ],
+  [
+   "title",
+   "Closed Book"
+  ],
+  [
+   "title",
+   "Open Book"
+  ],
+  [
+   "title",
+   "Green Book"
+  ],
+  [
+   "title",
+   "Blue Book"
+  ],
+  [
+   "title",
+   "Orange Book"
+  ],
+  [
+   "title",
+   "Page with Curl"
+  ],
+  [
+   "title",
+   "Page Facing Up"
+  ],
+  [
+   "title",
+   "Rolled-Up Newspaper"
+  ],
+  [
+   "title",
+   "Bookmark Tabs"
+  ],
+  [
+   "title",
+   "Money Bag"
+  ],
+  [
+   "title",
+   "Money with Wings"
+  ],
+  [
+   "title",
+   "Credit Card"
+  ],
+  [
+   "title",
+   "Envelope with Arrow"
+  ],
+  [
+   "title",
+   "Closed Mailbox with Raised Flag"
+  ],
+  [
+   "title",
+   "Closed Mailbox with Lowered Flag"
+  ],
+  [
+   "title",
+   "Open Mailbox with Raised Flag"
+  ],
+  [
+   "title",
+   "Open Mailbox with Lowered Flag"
+  ],
+  [
+   "title",
+   "Ballot Box with Ballot"
+  ],
+  [
+   "title",
+   "File Folder"
+  ],
+  [
+   "title",
+   "Open File Folder"
+  ],
+  [
+   "title",
+   "Card Index Dividers"
+  ],
+  [
+   "title",
+   "Tear-Off Calendar"
+  ],
+  [
+   "title",
+   "Card Index"
+  ],
+  [
+   "title",
+   "Chart Increasing"
+  ],
+  [
+   "title",
+   "Chart Decreasing"
+  ],
+  [
+   "title",
+   "Bar Chart"
+  ],
+  [
+   "title",
+   "Linked Paperclips"
+  ],
+  [
+   "title",
+   "Card File Box"
+  ],
+  [
+   "title",
+   "File Cabinet"
+  ],
+  [
+   "title",
+   "Locked with Pen"
+  ],
+  [
+   "title",
+   "Locked with Key"
+  ],
+  [
+   "title",
+   "Old Key"
+  ],
+  [
+   "title",
+   "Hammer and Pick"
+  ],
+  [
+   "title",
+   "Hammer and Wrench"
+  ],
+  [
+   "title",
+   "Nut and Bolt"
+  ],
+  [
+   "title",
+   "Balance Scale"
+  ],
+  [
+   "title",
+   "Test Tube"
+  ],
+  [
+   "title",
+   "Couch and Lamp"
+  ],
+  [
+   "title",
+   "Roll of Paper"
+  ],
+  [
+   "title",
+   "Heart with Arrow"
+  ],
+  [
+   "title",
+   "Heart with Ribbon"
+  ],
+  [
+   "title",
+   "Sparkling Heart"
+  ],
+  [
+   "title",
+   "Growing Heart"
+  ],
+  [
+   "title",
+   "Beating Heart"
+  ],
+  [
+   "title",
+   "Two Hearts"
+  ],
+  [
+   "title",
+   "Heart Decoration"
+  ],
+  [
+   "title",
+   "Heart Exclamation"
+  ],
+  [
+   "title",
+   "Broken Heart"
+  ],
+  [
+   "title",
+   "Heart on Fire"
+  ],
+  [
+   "title",
+   "Mending Heart"
+  ],
+  [
+   "title",
+   "Red Heart"
+  ],
+  [
+   "title",
+   "Orange Heart"
+  ],
+  [
+   "title",
+   "Yellow Heart"
+  ],
+  [
+   "title",
+   "Green Heart"
+  ],
+  [
+   "title",
+   "Blue Heart"
+  ],
+  [
+   "title",
+   "Purple Heart"
+  ],
+  [
+   "title",
+   "Brown Heart"
+  ],
+  [
+   "title",
+   "Black Heart"
+  ],
+  [
+   "title",
+   "White Heart"
+  ],
+  [
+   "title",
+   "Hundred Points"
+  ],
+  [
+   "title",
+   "Eye in Speech Bubble"
+  ],
+  [
+   "title",
+   "Left Speech Bubble"
+  ],
+  [
+   "title",
+   "Right Anger Bubble"
+  ],
+  [
+   "title",
+   "Stop Sign"
+  ],
+  [
+   "title",
+   "One O’Clock"
+  ],
+  [
+   "title",
+   "Two O’Clock"
+  ],
+  [
+   "title",
+   "Four O’Clock"
+  ],
+  [
+   "title",
+   "Six O’Clock"
+  ],
+  [
+   "title",
+   "Heart Suit"
+  ],
+  [
+   "title",
+   "Mahjong Red Dragon"
+  ],
+  [
+   "title",
+   "Flower Playing Cards"
+  ],
+  [
+   "title",
+   "Muted Speaker"
+  ],
+  [
+   "title",
+   "Speaker Low Volume"
+  ],
+  [
+   "title",
+   "Speaker Medium Volume"
+  ],
+  [
+   "title",
+   "Speaker High Volume"
+  ],
+  [
+   "title",
+   "Bell with Slash"
+  ],
+  [
+   "title",
+   "Musical Note"
+  ],
+  [
+   "title",
+   "Musical Notes"
+  ],
+  [
+   "title",
+   "Chart Increasing with Yen"
+  ],
+  [
+   "title",
+   "Litter in Bin Sign"
+  ],
+  [
+   "title",
+   "Men’s Room"
+  ],
+  [
+   "title",
+   "Women’s Room"
+  ],
+  [
+   "title",
+   "No Entry"
+  ],
+  [
+   "title",
+   "No One Under Eighteen"
+  ],
+  [
+   "title",
+   "Up Arrow"
+  ],
+  [
+   "title",
+   "Up-Right Arrow"
+  ],
+  [
+   "title",
+   "Right Arrow"
+  ],
+  [
+   "title",
+   "Down-Right Arrow"
+  ],
+  [
+   "title",
+   "Down Arrow"
+  ],
+  [
+   "title",
+   "Down-Left Arrow"
+  ],
+  [
+   "title",
+   "Left Arrow"
+  ],
+  [
+   "title",
+   "Up-Left Arrow"
+  ],
+  [
+   "title",
+   "Up-Down Arrow"
+  ],
+  [
+   "title",
+   "Left-Right Arrow"
+  ],
+  [
+   "title",
+   "Right Arrow Curving Left"
+  ],
+  [
+   "title",
+   "Left Arrow Curving Right"
+  ],
+  [
+   "title",
+   "Right Arrow Curving Up"
+  ],
+  [
+   "title",
+   "Right Arrow Curving Down"
+  ],
+  [
+   "title",
+   "Counterclockwise Arrows Button"
+  ],
+  [
+   "title",
+   "Back Arrow"
+  ],
+  [
+   "title",
+   "End Arrow"
+  ],
+  [
+   "title",
+   "Soon Arrow"
+  ],
+  [
+   "title",
+   "Top Arrow"
+  ],
+  [
+   "title",
+   "Place of Worship"
+  ],
+  [
+   "title",
+   "Star of David"
+  ],
+  [
+   "title",
+   "Wheel of Dharma"
+  ],
+  [
+   "title",
+   "Latin Cross"
+  ],
+  [
+   "title",
+   "Orthodox Cross"
+  ],
+  [
+   "title",
+   "Star and Crescent"
+  ],
+  [
+   "title",
+   "Dotted Six-Pointed Star"
+  ],
+  [
+   "title",
+   "Shuffle Tracks Button"
+  ],
+  [
+   "title",
+   "Repeat Button"
+  ],
+  [
+   "title",
+   "Repeat Single Button"
+  ],
+  [
+   "title",
+   "Play Button"
+  ],
+  [
+   "title",
+   "Fast-Forward Button"
+  ],
+  [
+   "title",
+   "Next Track Button"
+  ],
+  [
+   "title",
+   "Play or Pause Button"
+  ],
+  [
+   "title",
+   "Reverse Button"
+  ],
+  [
+   "title",
+   "Fast Reverse Button"
+  ],
+  [
+   "title",
+   "Last Track Button"
+  ],
+  [
+   "title",
+   "Upwards Button"
+  ],
+  [
+   "title",
+   "Fast Up Button"
+  ],
+  [
+   "title",
+   "Downwards Button"
+  ],
+  [
+   "title",
+   "Fast Down Button"
+  ],
+  [
+   "title",
+   "Pause Button"
+  ],
+  [
+   "title",
+   "Stop Button"
+  ],
+  [
+   "title",
+   "Record Button"
+  ],
+  [
+   "title",
+   "Eject Button"
+  ],
+  [
+   "title",
+   "Dim Button"
+  ],
+  [
+   "title",
+   "Bright Button"
+  ],
+  [
+   "title",
+   "Vibration Mode"
+  ],
+  [
+   "title",
+   "Mobile Phone Off"
+  ],
+  [
+   "title",
+   "Female Sign"
+  ],
+  [
+   "title",
+   "Male Sign"
+  ],
+  [
+   "title",
+   "⁉ Exclamation Question Mark"
+  ],
+  [
+   "title",
+   "Red Question Mark"
+  ],
+  [
+   "title",
+   "White Question Mark"
+  ],
+  [
+   "title",
+   "Red Exclamation Mark"
+  ],
+  [
+   "title",
+   "Currency Exchange"
+  ],
+  [
+   "title",
+   "Heavy Dollar Sign"
+  ],
+  [
+   "title",
+   "Name Badge"
+  ],
+  [
+   "title",
+   "Japanese Symbol for Beginner"
+  ],
+  [
+   "title",
+   "Hollow Red Circle"
+  ],
+  [
+   "title",
+   "Check Mark Button"
+  ],
+  [
+   "title",
+   "Check Box with Check"
+  ],
+  [
+   "title",
+   "Check Mark"
+  ],
+  [
+   "title",
+   "Cross Mark"
+  ],
+  [
+   "title",
+   "Cross Mark Button"
+  ],
+  [
+   "title",
+   "〽 Part Alternation Mark"
+  ],
+  [
+   "title",
+   "# Keycap Number Sign"
+  ],
+  [
+   "title",
+   "1 Keycap Digit One"
+  ],
+  [
+   "title",
+   "2 Keycap Digit Two"
+  ],
+  [
+   "title",
+   "4 Keycap Digit Four"
+  ],
+  [
+   "title",
+   "6 Keycap Digit Six"
+  ],
+  [
+   "title",
+   "Input Latin Uppercase"
+  ],
+  [
+   "title",
+   "Input Latin Lowercase"
+  ],
+  [
+   "title",
+   "Input Numbers"
+  ],
+  [
+   "title",
+   "Input Symbols"
+  ],
+  [
+   "title",
+   "Input Latin Letters"
+  ],
+  [
+   "title",
+   "A Button (Blood Type)"
+  ],
+  [
+   "title",
+   "AB Button (Blood Type)"
+  ],
+  [
+   "title",
+   "B Button (Blood Type)"
+  ],
+  [
+   "title",
+   "Cool Button"
+  ],
+  [
+   "title",
+   "Free Button"
+  ],
+  [
+   "title",
+   "New Button"
+  ],
+  [
+   "title",
+   "O Button (Blood Type)"
+  ],
+  [
+   "title",
+   "Vs Button"
+  ],
+  [
+   "title",
+   "Japanese “Service Charge” Button"
+  ],
+  [
+   "title",
+   "Japanese “Monthly Amount” Button"
+  ],
+  [
+   "title",
+   "Japanese “Not Free of Charge” Button"
+  ],
+  [
+   "title",
+   "Japanese “Free of Charge” Button"
+  ],
+  [
+   "title",
+   "Japanese “Passing Grade” Button"
+  ],
+  [
+   "title",
+   "Japanese “Open for Business” Button"
+  ],
+  [
+   "title",
+   "Japanese “No Vacancy” Button"
+  ],
+  [
+   "title",
+   "Red Circle"
+  ],
+  [
+   "title",
+   "Yellow Circle"
+  ],
+  [
+   "title",
+   "Green Circle"
+  ],
+  [
+   "title",
+   "Blue Circle"
+  ],
+  [
+   "title",
+   "Purple Circle"
+  ],
+  [
+   "title",
+   "Brown Circle"
+  ],
+  [
+   "title",
+   "Red Square"
+  ],
+  [
+   "title",
+   "Yellow Square"
+  ],
+  [
+   "title",
+   "Green Square"
+  ],
+  [
+   "title",
+   "Blue Square"
+  ],
+  [
+   "title",
+   "Purple Square"
+  ],
+  [
+   "title",
+   "Brown Square"
+  ],
+  [
+   "title",
+   "Black Large Square"
+  ],
+  [
+   "title",
+   "White Large Square"
+  ],
+  [
+   "title",
+   "Black Medium Square"
+  ],
+  [
+   "title",
+   "White Medium Square"
+  ],
+  [
+   "title",
+   "Black Medium-Small Square"
+  ],
+  [
+   "title",
+   "White Medium-Small Square"
+  ],
+  [
+   "title",
+   "Black Small Square"
+  ],
+  [
+   "title",
+   "White Small Square"
+  ],
+  [
+   "title",
+   "Large Orange Diamond"
+  ],
+  [
+   "title",
+   "Large Blue Diamond"
+  ],
+  [
+   "title",
+   "Small Orange Diamond"
+  ],
+  [
+   "title",
+   "Small Blue Diamond"
+  ],
+  [
+   "title",
+   "Red Triangle Pointed Up"
+  ],
+  [
+   "title",
+   "Red Triangle Pointed Down"
+  ],
+  [
+   "title",
+   "Diamond with a Dot"
+  ],
+  [
+   "title",
+   "Radio Button"
+  ],
+  [
+   "title",
+   "White Square Button"
+  ],
+  [
+   "title",
+   "Black Square Button"
+  ],
+  [
+   "title",
+   "Flag: Åland Islands"
+  ],
+  [
+   "title",
+   "Flag: Isle of Man"
+  ],
+  [
+   "title",
+   "Flag: New Caledonia"
+  ],
+  [
+   "title",
+   "Flag: New Zealand"
+  ],
+  [
+   "title",
+   "Flag: Papua New Guinea"
+  ],
+  [
+   "title",
+   "Flag: United States"
+  ],
+  [
+   "title",
+   "Flag: Vatican City"
+  ],
+  [
+   "title",
+   "Flag for Texas (US-TX)"
+  ],
+  [
+   "message",
+   "A MultiMode Lexer cannot be initialized without a <"
+  ],
+  [
+   "message",
+   "Unknown reason"
+  ],
+  [
+   "text",
+   "Syntax error in text"
+  ]
+ ],
+ "compiled-table-component.3.10.0.min.js": [
+  [
+   "alert",
+   "DataTables warning: Formatted date without Moment.js or Luxon - https://datatables.net/tn/17"
+  ]
+ ],
+ "compiled-tiptap-editor.3.10.0.min.js": [
+  [
+   "text",
+   "Click to expand"
+  ],
+  [
+   "label",
+   "Sidebar Left"
+  ],
+  [
+   "label",
+   "Sidebar Right"
+  ],
+  [
+   "label",
+   "Sidebar Both"
+  ],
+  [
+   "label",
+   "Bullet List"
+  ],
+  [
+   "label",
+   "Code Block"
+  ],
+  [
+   "label",
+   "Numbered List"
+  ],
+  [
+   "label",
+   "Table of Contents"
+  ],
+  [
+   "label",
+   "Task List"
+  ],
+  [
+   "placeholder",
+   "Type '/' for commands or start writing..."
+  ],
+  [
+   "placeholder",
+   "Write a comment..."
+  ],
+  [
+   "placeholder",
+   "Click to edit..."
+  ],
+  [
+   "placeholder",
+   "Start writing your description..."
+  ],
+  [
+   "content",
+   "paragraph block*"
+  ],
+  [
+   "placeholder",
+   "Write something …"
+  ]
+ ],
+ "compiled-tiptap-toolbar.3.10.0.min.js": [
+  [
+   "title",
+   "Bullet List"
+  ],
+  [
+   "title",
+   "Numbered List"
+  ],
+  [
+   "title",
+   "Code Block"
+  ],
+  [
+   "title",
+   "Align Left"
+  ],
+  [
+   "title",
+   "Align Center"
+  ],
+  [
+   "title",
+   "Align Right"
+  ],
+  [
+   "title",
+   "Text Color"
+  ],
+  [
+   "title",
+   "Font Family"
+  ],
+  [
+   "title",
+   "Font Size"
+  ],
+  [
+   "title",
+   "More options"
+  ],
+  [
+   "title",
+   "Edit HTML Source"
+  ],
+  [
+   "label",
+   "Horizontal Line"
+  ],
+  [
+   "label",
+   "Clear Formatting"
+  ]
+ ]
+}

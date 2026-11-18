@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<link rel="stylesheet" href="../../../Leantime-v3.10.0/public/dist/css/main.3.10.0.min.css">
+<link rel="stylesheet" id="themeStyleSheet" href="../../../Leantime-deploy-20260928/tema-mag/mag/css/light.css">
+<link rel="stylesheet" href="../../../Leantime-deploy-20260928/tema-mag/mag/css/custom.css">
+<script>var leantime = {i18n: {__: function (k) { return {'language.code': 'pt', 'language.firstDayOfWeek': '1'}[k] || k; }}};</script>
+<script defer src="../../../Leantime-v3.10.0/public/dist/js/compiled-calendar-component.3.10.0.min.js"></script>
+<script defer src="../../overlay/public/dist/js/mag-calendario.js"></script>
+<style>body{padding:16px;background:var(--bg-page)} .cal{background:var(--bg-surface);padding:12px;border-radius:12px;margin-bottom:16px;height:560px}</style>
+</head><body>
+<div class="cal"><div id="semana" style="height:100%"></div></div>
+<div class="cal"><div id="mes" style="height:100%"></div></div>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var eventos = {events: [
+    {title: 'Planejado: Medição cliente XYZ (Em andamento)', start: '2026-11-17T09:00:00', end: '2026-11-17T11:00:00', enitityType: 'ticket', dateContext: 'edit', backgroundColor: 'var(--accent2)', borderColor: 'var(--blue)'},
+    {title: '❕ Prazo: Orçamento sala de reunião (Em análise)', start: '2026-11-18', allDay: true, enitityType: 'ticket', dateContext: 'due', backgroundColor: 'var(--accent2)', borderColor: 'var(--yellow)'},
+    {title: 'Planejado: Montagem estações (Não iniciado)', start: '2026-11-19T13:00:00', end: '2026-11-19T17:00:00', enitityType: 'ticket', dateContext: 'edit', backgroundColor: 'var(--accent2)', borderColor: 'var(--grey)'},
+    {title: 'Reunião comercial', start: '2026-11-16T14:00:00', end: '2026-11-16T15:00:00', enitityType: 'event', backgroundColor: 'var(--accent1)', borderColor: 'var(--accent1)'},
+    {title: 'Entrega concluída (Concluído)', start: '2026-11-13', allDay: true, enitityType: 'ticket', dateContext: 'due', backgroundColor: 'var(--accent2)', borderColor: 'var(--green)'}
+  ]};
+  var base = {timeZone: 'America/Sao_Paulo', firstDay: leantime.i18n.__('language.firstDayOfWeek'), headerToolbar: {left: 'title', center: '', right: 'today prev,next'},
+              eventTimeFormat: {hour: '2-digit', minute: '2-digit', hour12: false}, slotLabelFormat: {hour: '2-digit', minute: '2-digit', hour12: false}, height: '100%'};
+  new FullCalendar.Calendar(document.getElementById('semana'), Object.assign({}, base, {initialView: 'timeGridWeek', initialDate: '2026-11-16', eventSources: [eventos]})).render();
+  var mes = new FullCalendar.Calendar(document.getElementById('mes'), Object.assign({}, base, {initialView: 'dayGridMonth', initialDate: '2026-11-10', eventSources: [eventos]}));
+  mes.render();
+  mes.setOption('locale', 'pt');  // como o calendário pessoal do Leantime faz
+  window.pronto = true;
+});
+</script></body></html>

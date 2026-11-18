@@ -1,0 +1,658 @@
+{
+ "app/Core/Configuration/Environment.php": [
+  [
+   "throw new Exception",
+   "We found a php configuration file but the class cannot be instantiated. Please check the configuration file for namespace and class name. You can use the configuration.sample.php as a template. See https://github.com/leantime/leantime/releases/tag/v2.4-beta-2 for more details."
+  ]
+ ],
+ "app/Core/Controller/Frontcontroller.php": [
+  [
+   "throw new NotFoundHttpException",
+   "Can't find a valid controller for "
+  ],
+  [
+   "throw new NotFoundHttpException",
+   "Can't find valid method for "
+  ]
+ ],
+ "app/Core/Exceptions/ExceptionHandler.php": [
+  [
+   "throw new InvalidArgumentException",
+   "Invalid exception mapping."
+  ]
+ ],
+ "app/Core/Files/FileManager.php": [
+  [
+   "throw new FileValidationException",
+   "Invalid file upload attempt: "
+  ],
+  [
+   "throw new FileValidationException",
+   "File size exceeds the maximum allowed size of "
+  ],
+  [
+   "throw new FileValidationException",
+   "File type ."
+  ],
+  [
+   "throw new FileValidationException",
+   "File contains a disallowed extension in its name"
+  ],
+  [
+   "throw new FileValidationException",
+   "SVG file uploads are not allowed for security reasons"
+  ]
+ ],
+ "app/Core/Language.php": [
+  [
+   "throw new Exception",
+   "Cannot find default english language file en-US.ini"
+  ]
+ ],
+ "app/Core/Support/DateTimeHelper.php": [
+  [
+   "throw new InvalidDateException",
+   "The string is not a valid date time string to parse as user datetime string"
+  ],
+  [
+   "throw new InvalidFormatException",
+   "The string is not a valid date time string to parse as user datetime string"
+  ],
+  [
+   "throw new InvalidDateException",
+   "The string is not a valid date time string to parse as Database string"
+  ],
+  [
+   "throw new InvalidFormatException",
+   "The string is not a valid date time string to parse as Database string"
+  ]
+ ],
+ "app/Core/UI/Template.php": [
+  [
+   "throw new Exception",
+   "Submodule alias must be in the format module-submodule"
+  ],
+  [
+   "throw new Exception",
+   "Both namespace and path must be provided"
+  ]
+ ],
+ "app/Domain/Api/Controllers/Jsonrpc.php": [
+  [
+   "throw new MissingParameterException",
+   "Could not get JSON from body or form fields"
+  ],
+  [
+   "throw new Exception",
+   "Must include method"
+  ],
+  [
+   "throw new Exception",
+   "Method string doesn't start with \\"
+  ],
+  [
+   "throw new Exception",
+   "Method is case sensitive and must follow the following naming convention: \"leantime.rpc.{domain}.{servicename}.{methodname}\""
+  ]
+ ],
+ "app/Domain/Api/Controllers/NewApiKey.php": [
+  [
+   "setNotification",
+   "notifications.key_created"
+  ]
+ ],
+ "app/Domain/Api/Services/Api.php": [
+  [
+   "throw new Exception",
+   "Invalid API key id"
+  ],
+  [
+   "throw new Exception",
+   "Invalid API key id"
+  ],
+  [
+   "throw new RangeException",
+   "Length must be a positive integer"
+  ]
+ ],
+ "app/Domain/Auth/Controllers/Login.php": [
+  [
+   "setNotification",
+   "notifications.username_or_password_incorrect"
+  ],
+  [
+   "setNotification",
+   "notifications.username_or_password_missing"
+  ]
+ ],
+ "app/Domain/Auth/Services/AccessToken.php": [
+  [
+   "throw new UnauthorizedException",
+   "You are not authorized to access this resource."
+  ],
+  [
+   "throw new UnauthorizedException",
+   "You are not authorized to access this resource."
+  ]
+ ],
+ "app/Domain/Calendar/Controllers/AddEvent.php": [
+  [
+   "setNotification",
+   "notification.event_created_successfully"
+  ],
+  [
+   "setNotification",
+   "notification.please_enter_title"
+  ]
+ ],
+ "app/Domain/Calendar/Controllers/ConnectCalendar.php": [
+  [
+   "setNotification",
+   "notification.gcal_imported_successfully"
+  ]
+ ],
+ "app/Domain/Calendar/Controllers/DelEvent.php": [
+  [
+   "setNotification",
+   "notification.event_removed_successfully"
+  ],
+  [
+   "setNotification",
+   "notification.could_not_delete_event"
+  ]
+ ],
+ "app/Domain/Calendar/Controllers/DelExternalCalendar.php": [
+  [
+   "setNotification",
+   "notification.calendar_removed_successfully"
+  ],
+  [
+   "setNotification",
+   "notification.could_not_delete_calendar"
+  ]
+ ],
+ "app/Domain/Calendar/Controllers/EditEvent.php": [
+  [
+   "setNotification",
+   "notification.event_edited_successfully"
+  ],
+  [
+   "setNotification",
+   "notification.please_enter_title"
+  ]
+ ],
+ "app/Domain/Calendar/Controllers/EditExternal.php": [
+  [
+   "setNotification",
+   "notification.external_calendar_edited"
+  ]
+ ],
+ "app/Domain/Calendar/Controllers/Export.php": [
+  [
+   "setNotification",
+   "notifications.ical_removed_success"
+  ],
+  [
+   "setNotification",
+   "notifications.ical_success"
+  ],
+  [
+   "setNotification",
+   "There was a problem generating the ical hash"
+  ],
+  [
+   "setNotification",
+   "Could not find ical URL"
+  ]
+ ],
+ "app/Domain/Calendar/Controllers/ImportGCal.php": [
+  [
+   "setNotification",
+   "notification.gcal_imported_successfully"
+  ]
+ ],
+ "app/Domain/Calendar/Services/Calendar.php": [
+  [
+   "throw new MissingParameterException",
+   "userHash and calendar hash are required"
+  ],
+  [
+   "throw new MissingParameterException",
+   "User has no iCal feed configured"
+  ],
+  [
+   "throw new MissingParameterException",
+   "iCal token must contain both an iCal hash and a user hash"
+  ]
+ ],
+ "app/Domain/Calendar/Tools/BreakdownTaskTool.php": [
+  [
+   "'message' =>",
+   "Failed to create subtask"
+  ]
+ ],
+ "app/Domain/Calendar/Tools/BulkAddCalendarEventsTool.php": [
+  [
+   "'message' =>",
+   "Failed to create event"
+  ],
+  [
+   "'message' =>",
+   "Failed to create event"
+  ]
+ ],
+ "app/Domain/Calendar/Tools/BulkEditCalendarEventsTool.php": [
+  [
+   "'message' =>",
+   "Missing event ID"
+  ],
+  [
+   "'message' =>",
+   "Event must start and end on the same day"
+  ],
+  [
+   "'message' =>",
+   "Event must be at least 15 minutes long"
+  ],
+  [
+   "'message' =>",
+   "Failed to update event"
+  ]
+ ],
+ "app/Domain/Calendar/Tools/ScheduleDayTool.php": [
+  [
+   "'message' =>",
+   "Failed to schedule task"
+  ]
+ ],
+ "app/Domain/Clients/Controllers/EditClient.php": [
+  [
+   "setNotification",
+   "EDIT_CLIENT_SUCCESS"
+  ],
+  [
+   "setNotification",
+   "NO_NAME"
+  ]
+ ],
+ "app/Domain/Clients/Services/Clients.php": [
+  [
+   "throw new MissingParameterException",
+   "Client name not specified"
+  ],
+  [
+   "throw new EntityExistsException",
+   "Client exists already"
+  ],
+  [
+   "throw new MissingParameterException",
+   "Client name not specified"
+  ]
+ ],
+ "app/Domain/Comments/Controllers/ShowAll.php": [
+  [
+   "throw new Exception",
+   "comments module needs to be initialized with module, entity id and entity"
+  ]
+ ],
+ "app/Domain/Connector/Controllers/Integration.php": [
+  [
+   "setNotification",
+   "Entity not set"
+  ],
+  [
+   "setNotification",
+   "There was a problem with the import "
+  ]
+ ],
+ "app/Domain/Files/Controllers/Browse.php": [
+  [
+   "setNotification",
+   "notifications.file_upload_success"
+  ],
+  [
+   "setNotification",
+   "notifications.file_upload_error"
+  ]
+ ],
+ "app/Domain/Files/Controllers/ShowAll.php": [
+  [
+   "setNotification",
+   "notifications.file_upload_success"
+  ],
+  [
+   "setNotification",
+   "notifications.file_upload_error"
+  ]
+ ],
+ "app/Domain/Files/Controllers/Upload.php": [
+  [
+   "'message' =>",
+   "Missing file, module or moduleId"
+  ]
+ ],
+ "app/Domain/Files/Services/Files.php": [
+  [
+   "throw new FileValidationException",
+   "Missing module or moduleId"
+  ],
+  [
+   "throw new FileNotFoundException",
+   "File not included in request or has invalid format"
+  ],
+  [
+   "throw new FileValidationException",
+   "File exceeds maximum allowed size"
+  ]
+ ],
+ "app/Domain/Goalcanvas/Controllers/BigRock.php": [
+  [
+   "setNotification",
+   "notification.goalboard_updated_successfully"
+  ],
+  [
+   "setNotification",
+   "notification.goalboard_created_successfully"
+  ]
+ ],
+ "app/Domain/Install/Controllers/Update.php": [
+  [
+   "setNotification",
+   "There was a problem updating your database. Please check your error logs to verify your database is up to date."
+  ]
+ ],
+ "app/Domain/Oidc/Controllers/Login.php": [
+  [
+   "setNotification",
+   "Mobile login requires a PKCE code_challenge."
+  ],
+  [
+   "setNotification",
+   "Invalid PKCE code_challenge."
+  ],
+  [
+   "setNotification",
+   "Auth URL could not be found. Check the logs for more details"
+  ]
+ ],
+ "app/Domain/Projects/Services/Projects.php": [
+  [
+   "throw new AuthorizationException",
+   "You are not allowed to re-sort one or more of these projects."
+  ],
+  [
+   "throw new NotFoundException",
+   "A task referenced in the sort order could not be found."
+  ],
+  [
+   "throw new AuthorizationException",
+   "You are not allowed to re-sort one or more of these items."
+  ],
+  [
+   "throw new AuthorizationException",
+   "You are not allowed to edit this project."
+  ]
+ ],
+ "app/Domain/Sprints/Controllers/EditSprint.php": [
+  [
+   "setNotification",
+   "Sprint edited successfully"
+  ],
+  [
+   "setNotification",
+   "There was a problem saving the sprint"
+  ],
+  [
+   "setNotification",
+   "Sprint created successfully."
+  ],
+  [
+   "setNotification",
+   "There was a problem saving the sprint"
+  ]
+ ],
+ "app/Domain/Sprints/Services/Sprints.php": [
+  [
+   "throw new MissingParameterException",
+   "First day and last day are required"
+  ]
+ ],
+ "app/Domain/Tags/Services/Tags.php": [
+  [
+   "throw new AuthorizationException",
+   "You do not have access to this project\\"
+  ]
+ ],
+ "app/Domain/Tickets/Controllers/ShowKanban.php": [
+  [
+   "setNotification",
+   "Task created: "
+  ]
+ ],
+ "app/Domain/Tickets/Services/Tickets.php": [
+  [
+   "throw new EntryNotFoundException",
+   "Can't find milestone"
+  ],
+  [
+   "'message' =>",
+   "Headline Missing"
+  ],
+  [
+   "'message' =>",
+   "Headline Missing"
+  ],
+  [
+   "throw new NotFoundException",
+   "The task you tried to edit could not be found."
+  ],
+  [
+   "throw new NotFoundException",
+   "The task you tried to edit could not be found."
+  ],
+  [
+   "'message' =>",
+   "Headline Missing"
+  ],
+  [
+   "'message' =>",
+   "You are not allowed to edit this milestone."
+  ],
+  [
+   "'message' =>",
+   "You are not allowed to edit this milestone."
+  ],
+  [
+   "'message' =>",
+   "You are not allowed to move this milestone to that project."
+  ],
+  [
+   "'message' =>",
+   "Could not move milestone to the new project."
+  ],
+  [
+   "throw new AuthorizationException",
+   "You are not allowed to re-sort tasks."
+  ],
+  [
+   "throw new NotFoundException",
+   "A task referenced in the sort order could not be found."
+  ],
+  [
+   "throw new AuthorizationException",
+   "You are not allowed to re-sort this task."
+  ]
+ ],
+ "app/Domain/Tickets/Tools/AddMilestonesForProjectTool.php": [
+  [
+   "'message' =>",
+   "Missing required fields (headline, color, editFrom, editTo)"
+  ],
+  [
+   "'message' =>",
+   "Failed to create milestone"
+  ]
+ ],
+ "app/Domain/Tickets/Tools/BulkAddTasksTool.php": [
+  [
+   "'message' =>",
+   "Failed to create task"
+  ]
+ ],
+ "app/Domain/Tickets/Tools/BulkEditTasksTool.php": [
+  [
+   "'message' =>",
+   "Missing task ID"
+  ],
+  [
+   "'message' =>",
+   "Failed to update task"
+  ]
+ ],
+ "app/Domain/Tickets/Tools/BulkScheduleTasksTool.php": [
+  [
+   "'message' =>",
+   "Failed to schedule task"
+  ]
+ ],
+ "app/Domain/Tickets/Tools/CreateSubtasksForTaskTool.php": [
+  [
+   "'message' =>",
+   "Failed to create subtask"
+  ]
+ ],
+ "app/Domain/Timesheets/Controllers/DelTime.php": [
+  [
+   "setNotification",
+   "notifications.time_deleted_successfully"
+  ],
+  [
+   "setNotification",
+   "notifications.no_permission_delete"
+  ]
+ ],
+ "app/Domain/Timesheets/Controllers/ShowMy.php": [
+  [
+   "setNotification",
+   "Could not parse date"
+  ]
+ ],
+ "app/Domain/Timesheets/Services/Timesheets.php": [
+  [
+   "throw new MissingParameterException",
+   "Date or timestamp is a required field"
+  ],
+  [
+   "throw new MissingParameterException",
+   "Hours is a required field"
+  ],
+  [
+   "throw new MissingParameterException",
+   "Timesheet type is a required field"
+  ],
+  [
+   "throw new MissingParameterException",
+   "Date or timestamp is a required field"
+  ],
+  [
+   "throw new MissingParameterException",
+   "Hours is a required field"
+  ],
+  [
+   "throw new MissingParameterException",
+   "Timesheet type is a required field"
+  ],
+  [
+   "'message' =>",
+   "Task ID is required for new entries"
+  ],
+  [
+   "'message' =>",
+   "Timesheet saved successfully"
+  ],
+  [
+   "'message' =>",
+   "Error logging time: "
+  ],
+  [
+   "'message' =>",
+   "notifications.time_logged_error_no_ticket"
+  ],
+  [
+   "'message' =>",
+   "notifications.time_logged_error_no_kind"
+  ],
+  [
+   "'message' =>",
+   "notifications.time_logged_error_no_date"
+  ],
+  [
+   "'message' =>",
+   "notifications.time_logged_error_no_hours"
+  ],
+  [
+   "'message' =>",
+   "notifications.time_logged_success"
+  ],
+  [
+   "'message' =>",
+   "notifications.could_not_store_time"
+  ]
+ ],
+ "app/Domain/TwoFA/Controllers/Verify.php": [
+  [
+   "setNotification",
+   "notification.incorrect_twoFA_code"
+  ],
+  [
+   "setNotification",
+   "notification.incorrect_twoFA_code"
+  ]
+ ],
+ "app/Domain/Users/Controllers/NewUser.php": [
+  [
+   "setNotification",
+   "notification.user_invited_successfully"
+  ]
+ ],
+ "app/Domain/Users/Controllers/PatchUserSettings.php": [
+  [
+   "'message' =>",
+   "Not authorized"
+  ],
+  [
+   "'message' =>",
+   "Invalid request"
+  ]
+ ],
+ "app/Domain/Wiki/Controllers/ArticleDialog.php": [
+  [
+   "setNotification",
+   "notification.article_updated_successfully"
+  ],
+  [
+   "setNotification",
+   "notification.article_save_error_no_notebook"
+  ],
+  [
+   "setNotification",
+   "notification.article_created_successfully"
+  ]
+ ],
+ "app/Domain/Wiki/Controllers/WikiModal.php": [
+  [
+   "setNotification",
+   "notification.wiki_updated_successfully"
+  ],
+  [
+   "setNotification",
+   "notification.wiki_created_successfully"
+  ]
+ ],
+ "app/Domain/Wiki/Hxcontrollers/ArticleContent.php": [
+  [
+   "'message' =>",
+   "Failed to save"
+  ]
+ ]
+}

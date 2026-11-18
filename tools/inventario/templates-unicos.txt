@@ -1,0 +1,288 @@
+( of )	Reports/partials/needsAttention
+* the archive status is protected cannot be renamed or removed.	Projects/showProject
+-   tasks -	app/Views/components/kanban/swimlane-row-header
+/hx/tickets/milestones/progress?milestoneId=	Widgets/partials/todoItem
+/hx/tickets/milestones/showCard?milestoneId=	Dashboard/show
+3. CountBadge Color Variations	Tickets/componentTest
+4. Complete SwimLaneRowHeader Components (Matching Design)	Tickets/componentTest
+5. Design Tokens (CSS Variables)	Tickets/componentTest
+6+ years	Help/support
+<strong>Keyboard Shortcuts:</strong><br>Enter: Save and close<br>Shift+Enter: Save and add another<br>Esc: Cancel	Tickets/partials/quickadd-form
+Accessibility improvements	Help/support
+Account	Auth/components/onboardingProgress
+Activity	Wiki/show
+Add Milestone	Dashboard/partials/createEntityButton
+Add reaction	Comments/partials/reactions
+Add Subtask	Tickets/partials/ticketsubmenu ; Widgets/partials/ticketsubmenu
+Add tags...	Wiki/show
+Add To-Do	Tickets/partials/quickadd-form
+Add Todo	Dashboard/partials/createEntityButton
+Administration	Clients/editClient
+Administrative costs	Help/support
+All Clients	Menu/partials/projectListFilter
+All set, we are importing the data you see below.	Connector/integrationImport
+All Statuses	Tickets/componentTest ; Tickets/submodules/ticketFilter
+All Users	Tickets/submodules/ticketFilter
+API Access	Projects/showProject
+At Risk	Goalcanvas/dashboard
+Available Integrations	Connector/show
+Available methods:	Connector/show
+Back	Auth/userInvite2 ; Auth/userInvite3 ; Auth/userInvite4 ; Connector/integrationEntity ; Con
+Better spacing and alignment in both states	Tickets/componentTest
+board	Goalcanvas/dashboard
+Bug fixes and stability	Help/support
+Calendars	Calendar/showMyCalendar
+Cancel	Tickets/partials/quickadd-form
+Cannot add time entry in previous timezone	Timesheets/showMy
+Categories:	Plugins/plugindetails
+Change	Files/showAll
+Click Here to Connect	Connector/newIntegration
+Closed Bugs in 2024	Help/support
+Collapsed (EFFORT groupby)	Tickets/componentTest
+Collapsed (USER groupby)	Tickets/componentTest
+Collapsed: Plain number (no background)	Tickets/componentTest
+Color Scheme	Auth/userInvite3
+Community-requested enhancements	Help/support
+Compatible With Leantime Versions:	Plugins/plugindetails
+Complete Sign up	Auth/userInvite5
+Confirm	Connector/integrationImport
+Copy	Projects/showProject
+Core will always remain open source by license	Help/support
+Count badge styling differs by state:	Tickets/componentTest
+Covers our server cost to host website, cloud and marketplace	Help/support
+Create New Goal	Goalcanvas/dashboard
+Create New Integration	Connector/show
+Create something new	Projects/createnew
+Create To-Do	Dashboard/show
+Created by | Last Updated:	Tickets/showTicketModal
+Critical	Tickets/componentTest
+Critical (1):	Tickets/componentTest
+Day	Calendar/showMyCalendar ; Tickets/calendar ; Widgets/partials/calendar
+Delete	Projects/showProject
+Delete Article	Wiki/show
+Delete Key	Setting/editCompanySettings
+Delete Project	Dashboard/show
+Details	Wiki/show
+Development tools	Help/support
+Did you know?	Auth/userInvite5
+Different Distribution (70% New, 20% In Progress, 10% Done)	Tickets/componentTest
+Direct Sponsorship through Github	Help/support
+Documentation improvements	Help/support
+Don't map	Connector/integrationFields
+Draft	Wiki/show
+Due Soon:	Tickets/componentTest
+Due to a global bit shortage our plugins are currently out of stock. We are working hard to get more stock in as soon as possible.	Plugins/partials/pluginlist
+Edit Key	Setting/editCompanySettings
+Edit Project	Dashboard/show
+Editing	Wiki/show
+Effort	app/Views/components/kanban/tshirt-icon
+Email	Auth/login
+Enjoy the extra time. 🎉	app/Views/layouts/registration
+Enter: Save and close	Tickets/partials/quickadd-form
+Events	Calendar/showMyCalendar
+Expanded (shows progress bar)	Tickets/componentTest
+Expanded (shows progress bar) and Collapsed (hides progress bar)	Tickets/componentTest
+EXPANDED vs COLLAPSED States	Tickets/componentTest
+Expanded: Olive green background badge	Tickets/componentTest
+Export	Calendar/showMyCalendar
+Extend Leantime using our latest plugins.	Plugins/partials/latestPlugins
+Feature ✨:	Tickets/componentTest
+Filter	Tickets/submodules/ticketFilter
+Finish the previous steps first	Projects/partials/checklist
+Former ER nurse turned product manager, first-generation Hispanic entrepreneur.	Help/support
+From (your integration)	Connector/integrationEntity
+From here, we'll help you turn your task list into a project and goals. Then we'll work	Auth/userInvite5
+Fund open source development that benefits everyone	Help/support
+Funded the My Work dashboard Updates	Help/support
+Funds from	Help/support
+Generate API Key	Setting/editCompanySettings
+German immigrant, dad to an autistic daughter, and living with ADHD myself.	Help/support
+Get a license	Plugins/plugindetails
+Get advanced features while supporting development	Help/support
+Go Back	Connector/integrationImport
+Go back to integrations	Connector/integrationConfirm
+Goal:	Goalcanvas/dashboard ; Goalcanvas/showCanvas
+Group By	Tickets/submodules/ticketFilter
+GROUP BY: EFFORT	Tickets/componentTest
+GROUP BY: MILESTONE	Tickets/componentTest
+GROUP BY: SPRINT	Tickets/componentTest
+Help us build a future where all minds thrive!	Help/support
+Hide	Widgets/components/moveableWidget
+High	Tickets/componentTest
+High (2):	Tickets/componentTest
+How can you help?	Help/support
+How does your money help?	Help/support
+https://example.com/calendar.ics	Calendar/connectCalendar
+I spent years in high-pressure medical environments where organization literally saves lives. But when I started my own business, traditional project tools felt overwhelming and disconnected from how I actually think and work.	Help/support
+Icons match design: 🎯 for milestones, 🏃 for sprints, 👕 for effort	Tickets/componentTest
+in both states - only progress bar toggles	Tickets/componentTest
+Inherit	Projects/showProject
+Install	Plugins/plugindetails
+Installations you're supporting	Help/support
+Integration Success	Connector/integrationConfirm
+Integrations	Connector/show
+Jump right back in	Blueprints/showBoards
+Keyboard shortcuts help	Tickets/partials/quickadd-form
+Label text always visible	Tickets/componentTest
+Languages translated by the community	Help/support
+Large Count (100+) - Dark Olive	Tickets/componentTest
+Latest From Leantime	Notifications/partials/latestNews
+Latest Plugin Updates	Plugins/partials/latestPlugins
+License Key	Plugins/plugindetails
+List	Widgets/partials/calendar
+Loading activity...	Wiki/show
+Loading Subtasks ...	Tickets/submodules/ticketDetails
+Loading...	app/Views/components/loadingText
+Low	Tickets/componentTest
+Low (4):	Tickets/componentTest
+Manage Your Apps	Plugins/partials/latestPlugins
+Match Fields	Connector/integrationFields
+Medium	Tickets/componentTest
+Medium (3):	Tickets/componentTest
+Medium Count (10-99) - Medium Olive	Tickets/componentTest
+Method not implemented	Errors/error501
+Metric:	Goalcanvas/dashboard ; Goalcanvas/showCanvas
+Milestone dates show on hover only (not displayed on card)	Tickets/componentTest
+Milestone 🎯:	Tickets/componentTest
+Milestone:	app/Views/components/kanban/milestone-icon
+Miss	Goalcanvas/dashboard
+Month	Calendar/showMyCalendar ; Tickets/calendar ; Widgets/partials/calendar
+more than double the success rate	Auth/userInvite5
+Most productivity tools assume everyone thinks the same way: linearly, with perfect focus, motivated by arbitrary deadlines. Whether you have ADHD and need dopamine hits from completed tasks, are autistic and crave consistent structure, have dyslexia and think spatially, or you're just tired of tools that don't match how your brain actually works—you've probably given up on project management entirely.	Help/support
+My Apps	Plugins/myapps ; Plugins/partials/plugintabs
+My background in behavioral science and motivation research drives how we build features that don't just organize tasks—they help you actually want to complete them.	Help/support
+New Integration	Connector/newIntegration
+New open source features	Help/support
+Next	Connector/integrationFields
+No activity yet	Wiki/partials/activityFeed
+No goals on this board yet. Open the	Goalcanvas/dashboard
+No Milestone	Tickets/componentTest
+No set up required!	app/Views/layouts/registration
+No tasks in this group.	app/Views/components/kanban/micro-progress-bar
+No VC pressure to pivot or monetize aggressively	Help/support
+None	Wiki/articleDialog ; Wiki/show
+Not Available in this plan	Projects/createnew
+Note: Each username gets a consistent color. Same user = same color every time.	Tickets/componentTest
+Nothing New	Plugins/myapps
+Nothing to see here. Move on.	Dashboard/show
+Notification ( )	Menu/headMenu
+of	Reports/partials/goalTable
+of completing a task.	Auth/userInvite5
+Of sponsorship goes to development	Help/support
+On Track	Goalcanvas/dashboard
+Open Project Hub	Menu/partials/projectSelector
+Out of Stock	Plugins/partials/pluginlist
+Overdue:	Tickets/componentTest
+Overview	Plugins/plugindetails
+Parent	Wiki/articleDialog ; Wiki/show
+Password	Auth/login
+Please resolve the following errors and reconnect your integration:	Connector/integrationImport
+Please review these requirements and make sure your import and mapping covers everything.	Connector/integrationFields
+Plugin details sections	Plugins/plugindetails
+Plugin Sales	Help/support
+Plugin Version:	Plugins/plugindetails
+Press Enter to save and close. Press Shift plus Enter to save and add another task. Press Escape to cancel.	Tickets/partials/quickadd-form
+Priority	app/Views/components/kanban/thermometer-icon
+Priority Colors	Tickets/componentTest
+Progress: %	Goalcanvas/dashboard
+Project Checklist	Projects/partials/checklist
+Project Hub	Menu/partials/projectSelector
+Project Type	Projects/newProject ; Projects/submodules/projectDetails
+Projects & Tasks	Calendar/showMyCalendar
+Published	Wiki/show
+Q1 Launch	Tickets/componentTest
+Rating:	Plugins/plugindetails
+Ready to make a direct impact?	Help/support
+Recent impact:	Help/support
+Remove	Files/showAll
+Requirements for a successful import	Connector/integrationFields
+Reset Dashboard	Widgets/widgetManager
+Resize to fit content	Widgets/components/moveableWidget
+Review	Connector/integrationImport
+SaaS Revenue	Help/support
+Save	Tickets/partials/quickadd-form
+Secret:	TwoFA/edit
+Select file	Files/showAll
+Select my own	Auth/userInvite4
+Self-funded/Community-funded	Help/support
+Setting Intentions has been shown to	Auth/userInvite5
+Settings	Plugins/partials/installed/plugincontrols
+Shift+Enter: Save and add another	Tickets/partials/quickadd-form
+Show Closed Projects	Projects/showAll
+Show Contents	Wiki/show
+Show Details	Wiki/show
+Show Tasks	Tickets/submodules/ticketFilter
+Sign Up	app/Views/layouts/registration
+Small Count (1-9) - Light Olive	Tickets/componentTest
+Smooth transition animation between states (0.2s ease)	Tickets/componentTest
+Source Field	Connector/integrationFields
+Start Sponsoring Today	Help/support
+Start:	Goalcanvas/dashboard ; Goalcanvas/showCanvas
+Status breakdown	app/Views/components/kanban/micro-progress-bar
+Status Breakdown (50% New, 30% In Progress, 20% Done)	Tickets/componentTest
+Supporting Icons	Tickets/componentTest
+Swimlane Component Test	Tickets/componentTest
+Swimlane Row Header Components Test	Tickets/componentTest
+System Plugin, cannot be disabled or removed	Plugins/partials/installed/plugincontrols
+Tags:	Plugins/plugindetails
+Take me there	Projects/partials/checklist
+Task name	Tickets/partials/quickadd-form
+Telegram	Projects/showProject
+Telegram logo	Projects/showProject
+Templates	Blueprints/showBoards
+Testing all new Blade components before integration	Tickets/componentTest
+Testing and quality assurance	Help/support
+The project checklist is list of activities you should do to ensure your projects are well defined, planned and executed.	Projects/partials/checklist
+The quick brown fox jumps over the lazy dog	Auth/userInvite2
+The type of the project. This will determine which features are available.	Projects/newProject ; Projects/submodules/projectDetails
+Theme	Auth/components/onboardingProgress
+ThermometerIcon (Priority)	Tickets/componentTest
+This entry was likely created using a different timezone. Only existing entries can be updated in this timezone	Timesheets/showMy
+This plugin currently isn't available for installation.	Plugins/plugindetails
+This plugin currently isn't available for purchase.	Plugins/plugindetails
+Ticket not found	Tickets/delTicket
+Time indicators (⏳⏰💤) inline with label row	Tickets/componentTest
+to get the work done.	Auth/userInvite5
+To search type and hit enter...	Calendar/showAllGCals
+to start adding goals	Goalcanvas/dashboard
+today	Calendar/showMyCalendar ; Tickets/calendar
+together to identify your most important tasks so you can create some intentions	Auth/userInvite5
+Traditional project management tools never clicked for me. They felt like they were built by neurotypical minds for neurotypical minds. When I was freelancing and struggling to keep client projects organized, I started building something that worked with my brain instead of against it.	Help/support
+TShirtIcon (Effort)	Tickets/componentTest
+Two states only:	Tickets/componentTest
+Type:	app/Views/components/kanban/type-icon
+Unassigned (MD):	Tickets/componentTest
+unknown	Tickets/partials/ticketCard ; Widgets/partials/todoItem
+Upload CSV file	CsvImport/upload
+User Research	Tickets/componentTest
+UserAvatar (with consistent color generation)	Tickets/componentTest
+We can create a world where no one has to fight their tools to do great work. Your sponsorship funds a future where software adapts to human diversity, not the other way around.	Help/support
+We couldn't discover any new plugins in your plugin folder, please make sure the plugin is unzipped and contains a composer.json file.	Plugins/myapps
+We'll use these times to help prioritize your tasks	Auth/userInvite4
+We're building Leantime for minds that work differently. That includes neurodivergent brains, but also anyone who's ever felt like existing tools fight against their natural thinking patterns.	Help/support
+Website hosting	Help/support
+Week	Calendar/showMyCalendar ; Tickets/calendar ; Widgets/partials/calendar
+What are you importing?	Connector/integrationEntity
+What are you working on? ↵	Tickets/partials/quickadd-form
+What started as a personal solution became Leantime when I realized millions of others needed the same thing.	Help/support
+What time do you usually start working?	Auth/userInvite4
+When do you normally end your work day? 🥳	Auth/userInvite4
+When do you normally take a lunch break from work?	Auth/userInvite4
+Who's behind Leantime?	Help/support
+Why Leantime won't disappear	Help/support
+With consistent full time development since 2021.	Help/support
+With labels:	Tickets/componentTest
+Year	Calendar/showMyCalendar ; Tickets/calendar
+You don't have any favorites. 😿	Projects/partials/projectHubProjects ; Widgets/partials/myProjects
+Your API Key was successfully created. Please copy the key below. This is your only chance to copy it.	Api/newAPIKey
+Your data was synced successfully.	Connector/integrationConfirm
+Your favorite color mode and scheme.	Auth/userInvite3
+Your impact in numbers	Help/support
+Your sponsorships funded our new docker image improvements	Help/support
+⭐ My Favorites	Projects/partials/projectHubProjects ; Projects/projectHub ; Widgets/partials/myProjects
+🎨 Creating A Comfortable View	Auth/userInvite3
+👋 And I'm Gloria	Help/support
+👋 I'm Marcel	Help/support
+💡 Design Notes:	Tickets/componentTest
+🗂️ All Assigned Projects	Projects/partials/projectHubProjects ; Widgets/partials/myProjects
+🗓️ Shaping A Daily Flow	Auth/userInvite4

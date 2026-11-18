@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<link rel="stylesheet" href="../../../Leantime-v3.10.0/public/dist/css/main.3.10.0.min.css">
+<link rel="stylesheet" id="themeStyleSheet" href="../../../Leantime-deploy-20260928/tema-mag/mag/css/light.css">
+<link rel="stylesheet" href="../../../Leantime-deploy-20260928/tema-mag/mag/css/custom.css">
+<script>
+var leantime = {appUrl: '', i18n: {__: function (k) { return ({'language.code': 'pt', 'language.firstDayOfWeek': '1', 'language.dateformat': 'd/m/Y',
+  'language.timeformat': 'H:i', 'usersettings.timezone': 'America/Sao_Paulo'})[k] || k; }}};
+</script>
+<script src="../../../Leantime-v3.10.0/public/dist/js/compiled-htmx.3.10.0.min.js"></script>
+<script src="../../../Leantime-v3.10.0/public/dist/js/compiled-htmx-extensions.3.10.0.min.js"></script>
+<script src="../../../Leantime-v3.10.0/public/dist/js/compiled-frameworks.3.10.0.min.js"></script>
+<script src="../../../Leantime-v3.10.0/public/dist/js/compiled-framework-plugins.3.10.0.min.js"></script>
+<script src="../../../Leantime-v3.10.0/public/dist/js/compiled-global-component.3.10.0.min.js"></script>
+<script defer src="../../../Leantime-v3.10.0/public/dist/js/compiled-calendar-component.3.10.0.min.js"></script>
+<script defer src="../../overlay/public/dist/js/mag-calendario.js"></script>
+<script src="../../overlay/public/dist/js/compiled-app.3.10.0.min.js"></script>
+<style>body{padding:16px;background:var(--bg-page)} .minCalendarWrapper{height:620px;background:var(--bg-surface);border-radius:12px;padding:8px}</style>
+</head><body>
+<div class="minCalendarWrapper"></div>
+<script>
+var eventSources = [{events: [
+  {title: 'Planejado: Medição cliente XYZ (Em andamento)', start: new Date(Date.UTC(2026,10,17,12)), end: new Date(Date.UTC(2026,10,17,14)), allDay: false, enitityId: 1, url: '#', backgroundColor: 'var(--accent2)', borderColor: 'var(--blue)', enitityType: 'ticket', dateContext: 'edit'},
+  {title: 'Reunião comercial', start: new Date(Date.UTC(2026,10,16,17)), end: new Date(Date.UTC(2026,10,16,18)), allDay: false, enitityId: 2, url: '#', backgroundColor: 'var(--accent1)', borderColor: 'var(--accent1)', enitityType: 'event', dateContext: 'plan'}
+]}];
+document.addEventListener('DOMContentLoaded', function () {
+  try {
+    var cal = leantime.calendarController.initWidgetCalendar('.minCalendarWrapper', 'timeGridWeek');
+    if (cal && cal.gotoDate) { cal.gotoDate('2026-11-16'); }
+    window.resultado = 'ok';
+  } catch (e) { window.resultado = 'ERRO: ' + e.message; }
+});
+</script></body></html>

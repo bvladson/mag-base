@@ -1,0 +1,82 @@
+#!/bin/sh
+# Releases da base MAG: Leantime 3.10.0 + overlay MAG (mag-base/overlay) - remover.txt.
+#
+# Uso (como root na VPS):
+#   mag-release criar <nome> <overlay.tar> <remover.txt>
+#       cria /var/www/leantime/releases/<nome> a partir da release base, sem ativar
+#   mag-release ativar <nome>
+#       aponta /var/www/leantime/current para a release (troca atômica), recarrega o
+#       PHP-FPM e limpa os caches (views, bootstrap e idiomas)
+#   Reverter = "mag-release ativar 3.10.0".
+set -eu
+
+RAIZ=/var/www/leantime
+BASE_REL="$RAIZ/releases/3.10.0"
+
+limpar_caches() {
+    cd "$RAIZ/current"
+    runuser -u leantime -- php bin/leantime cache:clearAll >/dev/null
+    # O store "installation" (compartilhado entre releases) guarda caminhos absolutos da
+    # release anterior em chaves permanentes ("domainEvents", "domainRoutes"): sem esvaziá-lo,
+    # a release nova continua carregando os register.php da antiga. Tudo nele é regenerável;
+    # as sessões ficam em outro store e ninguém é deslogado.
+    runuser -u leantime -- php bin/leantime cache:clear installation >/dev/null
+}
+
+case "${1:-}" in
+    criar)
+        [ $# -eq 4 ] || { echo "uso: $0 criar <nome> <overlay.tar> <remover.txt>" >&2; exit 2; }
+        NOVA="$RAIZ/releases/$2"
+        TAR="$3"
+        LISTA="$4"
+        test -d "$BASE_REL"
+        if [ -e "$NOVA" ]; then
+            echo "$NOVA já existe" >&2
+            exit 1
+        fi
+
+        cp -a "$BASE_REL" "$NOVA"
+        tar -xf "$TAR" -C "$NOVA" --no-same-owner
+
+        # Permissões só nos caminhos que vieram do overlay (código de propriedade do root)
+        tar -tf "$TAR" | while read -r p; do
+            alvo="$NOVA/$p"
+            if [ -L "$alvo" ]; then
+                continue
+            elif [ -d "$alvo" ]; then
+                chmod 755 "$alvo"
+            elif [ -f "$alvo" ]; then
+                chmod 644 "$alvo"
+            fi
+        done
+
+        grep -v '^[[:space:]]*#' "$LISTA" | grep -v '^[[:space:]]*$' | while read -r p; do
+            if [ ! -f "$NOVA/$p" ]; then
+                echo "não encontrado para remover: $p" >&2
+                exit 1
+            fi
+            rm "$NOVA/$p"
+        done
+
+        tar -tf "$TAR" | grep '\.php$' | grep -v '\.blade\.php$' | while read -r p; do
+            php -l "$NOVA/$p" >/dev/null
+        done
+
+        /usr/local/sbin/leantime-tema-mag aplicar "$NOVA" >/dev/null
+        echo "release criada (não ativada): $NOVA"
+        ;;
+    ativar)
+        [ $# -eq 2 ] || { echo "uso: $0 ativar <nome>" >&2; exit 2; }
+        ALVO="$RAIZ/releases/$2"
+        test -f "$ALVO/public/index.php"
+        ln -sfn "$ALVO" "$RAIZ/current.novo"
+        mv -T "$RAIZ/current.novo" "$RAIZ/current"
+        systemctl reload php8.3-fpm
+        limpar_caches
+        echo "current -> $(readlink "$RAIZ/current")"
+        ;;
+    *)
+        echo "uso: $0 criar <nome> <overlay.tar> <remover.txt> | ativar <nome>" >&2
+        exit 2
+        ;;
+esac

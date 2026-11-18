@@ -1,0 +1,11 @@
+# Arquivos do Leantime apagados na release MAG (caminhos relativos à raiz da release).
+# Referências conferidas antes de remover: nenhum arquivo restante os usa.
+app/Domain/Help/Templates/support.blade.php
+public/dist/images/logo-powered-by-leantime.png
+public/dist/images/marcel.png
+public/dist/images/gloria.png
+public/dist/images/leoDino.png
+public/dist/images/leoHead.png
+public/tiptap-test.html
+public/dist/js/compiled-tiptap-tests.3.10.0.min.js
+app/Domain/Tickets/Templates/componentTest.blade.php

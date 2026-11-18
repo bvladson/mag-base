@@ -1,0 +1,192 @@
+{
+ "login-light": {
+  "folhas": [
+   {
+    "href": "/theme/default/css/light.css?v=1790613365",
+    "media": ""
+   },
+   {
+    "href": "/theme/default/css/custom.css?v=1790613365",
+    "media": ""
+   }
+  ],
+  "colorScheme": "light",
+  "fundo": "rgb(247, 245, 244)",
+  "bgPage": "#F7F5F4"
+ },
+ "login-dark": {
+  "folhas": [
+   {
+    "href": "/theme/default/css/dark.css?v=1790613365",
+    "media": ""
+   },
+   {
+    "href": "/theme/default/css/custom.css?v=1790613365",
+    "media": ""
+   }
+  ],
+  "colorScheme": "dark",
+  "fundo": "rgb(18, 16, 16)",
+  "bgPage": "#121010"
+ },
+ "login-system-so-light": {
+  "folhas": [
+   {
+    "href": "/theme/default/css/light.css?v=1790613365",
+    "media": ""
+   },
+   {
+    "href": "/theme/default/css/dark.css?v=1790613365",
+    "media": "(prefers-color-scheme: dark)"
+   },
+   {
+    "href": "/theme/default/css/custom.css?v=1790613365",
+    "media": ""
+   }
+  ],
+  "colorScheme": "light dark",
+  "fundo": "rgb(247, 245, 244)",
+  "bgPage": "#F7F5F4"
+ },
+ "login-system-so-dark": {
+  "folhas": [
+   {
+    "href": "/theme/default/css/light.css?v=1790613365",
+    "media": ""
+   },
+   {
+    "href": "/theme/default/css/dark.css?v=1790613365",
+    "media": "(prefers-color-scheme: dark)"
+   },
+   {
+    "href": "/theme/default/css/custom.css?v=1790613365",
+    "media": ""
+   }
+  ],
+  "colorScheme": "light dark",
+  "fundo": "rgb(18, 16, 16)",
+  "bgPage": "#121010"
+ },
+ "painel-dark": {
+  "folhas": [
+   {
+    "href": "/theme/default/css/dark.css?v=1790613365",
+    "media": ""
+   },
+   {
+    "href": "/theme/default/css/custom.css?v=1790613365",
+    "media": ""
+   }
+  ],
+  "colorScheme": "dark",
+  "fundo": "rgb(18, 16, 16)",
+  "bgPage": "#121010"
+ },
+ "painel-light": {
+  "folhas": [
+   {
+    "href": "/theme/default/css/light.css?v=1790613365",
+    "media": ""
+   },
+   {
+    "href": "/theme/default/css/custom.css?v=1790613365",
+    "media": ""
+   }
+  ],
+  "colorScheme": "dark",
+  "fundo": "rgb(247, 245, 244)",
+  "bgPage": "#F7F5F4"
+ },
+ "kanban-dark": {
+  "folhas": [
+   {
+    "href": "/theme/default/css/dark.css?v=1790613365",
+    "media": ""
+   },
+   {
+    "href": "/theme/default/css/custom.css?v=1790613365",
+    "media": ""
+   }
+  ],
+  "colorScheme": "dark",
+  "fundo": "rgb(18, 16, 16)",
+  "bgPage": "#121010"
+ },
+ "kanban-light": {
+  "folhas": [
+   {
+    "href": "/theme/default/css/light.css?v=1790613365",
+    "media": ""
+   },
+   {
+    "href": "/theme/default/css/custom.css?v=1790613365",
+    "media": ""
+   }
+  ],
+  "colorScheme": "dark",
+  "fundo": "rgb(247, 245, 244)",
+  "bgPage": "#F7F5F4"
+ },
+ "projeto-dark": {
+  "folhas": [
+   {
+    "href": "/theme/default/css/dark.css?v=1790613365",
+    "media": ""
+   },
+   {
+    "href": "/theme/default/css/custom.css?v=1790613365",
+    "media": ""
+   }
+  ],
+  "colorScheme": "dark",
+  "fundo": "rgb(18, 16, 16)",
+  "bgPage": "#121010"
+ },
+ "projeto-light": {
+  "folhas": [
+   {
+    "href": "/theme/default/css/light.css?v=1790613365",
+    "media": ""
+   },
+   {
+    "href": "/theme/default/css/custom.css?v=1790613365",
+    "media": ""
+   }
+  ],
+  "colorScheme": "dark",
+  "fundo": "rgb(247, 245, 244)",
+  "bgPage": "#F7F5F4"
+ },
+ "perfil-tema-dark": {
+  "folhas": [
+   {
+    "href": "/theme/default/css/dark.css?v=1790613365",
+    "media": ""
+   },
+   {
+    "href": "/theme/default/css/custom.css?v=1790613365",
+    "media": ""
+   }
+  ],
+  "colorScheme": "dark",
+  "fundo": "rgb(18, 16, 16)",
+  "bgPage": "#121010"
+ },
+ "perfil-tema-light": {
+  "folhas": [
+   {
+    "href": "/theme/default/css/light.css?v=1790613365",
+    "media": ""
+   },
+   {
+    "href": "/theme/default/css/custom.css?v=1790613365",
+    "media": ""
+   }
+  ],
+  "colorScheme": "dark",
+  "fundo": "rgb(247, 245, 244)",
+  "bgPage": "#F7F5F4"
+ },
+ "tour-dark": "Atualizações rápidas de status\n×\nUse as atualizações de status para compartilhar rapidamente o andamento do projeto com a equipe, usando as cores vermelho, amarelo e verde. O status fica visível em todo o sistema.\nCancelar\nVoltar\nPróximo",
+ "tour-light": "Atualizações rápidas de status\n×\nUse as atualizações de status para compartilhar rapidamente o andamento do projeto com a equipe, usando as cores vermelho, amarelo e verde. O status fica visível em todo o sistema.\nCancelar\nVoltar\nPróximo"
+}

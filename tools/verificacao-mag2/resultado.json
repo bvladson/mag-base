@@ -1,0 +1,343 @@
+{
+  "paginas": {
+    "login": {
+      "achados": [],
+      "titulo": "MAG Moveis Corporativos",
+      "iconesTopo": [],
+      "logo": "none",
+      "status": 200,
+      "url": "/auth/login"
+    },
+    "painel-boas-vindas": {
+      "achados": [],
+      "titulo": "MAG Moveis Corporativos",
+      "iconesTopo": [
+        "fa-solid fa-bell",
+        "fa-solid fa-question-circle",
+        "fa fa-fw fa-sign-out-alt",
+        "head-icon fa fa-briefcase",
+        "fa fa-caret-down",
+        "fa-solid fa-house-flag",
+        "fa-solid fa-rocket",
+        "fas fa-filter",
+        "fa-solid fa-diagram-project",
+        "fas fa-filter",
+        "fa-solid fa-diagram-project",
+        "head-icon fa fa-house-laptop",
+        "head-icon fa fa-building"
+      ],
+      "logo": "url(\"https://task.magmoveiscorporativos.com.br/dist/images/mag/logo-cabecalho.svg\")",
+      "status": 200,
+      "url": "/dashboard/home"
+    },
+    "painel": {
+      "achados": [],
+      "titulo": "MAG Moveis Corporativos",
+      "iconesTopo": [
+        "fa-solid fa-bell",
+        "fa-solid fa-question-circle",
+        "fa fa-fw fa-sign-out-alt",
+        "head-icon fa fa-briefcase",
+        "fa fa-caret-down",
+        "fa-solid fa-house-flag",
+        "fa-solid fa-rocket",
+        "fas fa-filter",
+        "fa-solid fa-diagram-project",
+        "fas fa-filter",
+        "fa-solid fa-diagram-project",
+        "head-icon fa fa-house-laptop",
+        "head-icon fa fa-building"
+      ],
+      "logo": "url(\"https://task.magmoveiscorporativos.com.br/dist/images/mag/logo-cabecalho.svg\")",
+      "status": 200,
+      "url": "/dashboard/home"
+    },
+    "kanban": {
+      "achados": [],
+      "titulo": "MAG Moveis Corporativos",
+      "iconesTopo": [
+        "fa-solid fa-bell",
+        "fa-solid fa-question-circle",
+        "fa fa-fw fa-sign-out-alt",
+        "fa fa-caret-down",
+        "fas fa-filter",
+        "fa-solid fa-diagram-project",
+        "fas fa-filter",
+        "fa-solid fa-diagram-project",
+        "fa-solid fa-rocket",
+        "fa-solid fa-circle-nodes",
+        "head-icon fa fa-house-laptop",
+        "head-icon fa fa-building"
+      ],
+      "logo": "url(\"https://task.magmoveiscorporativos.com.br/dist/images/mag/logo-cabecalho.svg\")",
+      "status": 200,
+      "url": "/tickets/showKanban"
+    },
+    "tabela": {
+      "achados": [],
+      "titulo": "MAG Moveis Corporativos",
+      "iconesTopo": [
+        "fa-solid fa-bell",
+        "fa-solid fa-question-circle",
+        "fa fa-fw fa-sign-out-alt",
+        "fa fa-caret-down",
+        "fas fa-filter",
+        "fa-solid fa-diagram-project",
+        "fas fa-filter",
+        "fa-solid fa-diagram-project",
+        "fa-solid fa-rocket",
+        "fa-solid fa-circle-nodes",
+        "head-icon fa fa-house-laptop",
+        "head-icon fa fa-building"
+      ],
+      "logo": "url(\"https://task.magmoveiscorporativos.com.br/dist/images/mag/logo-cabecalho.svg\")",
+      "status": 200,
+      "url": "/tickets/showAll"
+    },
+    "marcos": {
+      "achados": [],
+      "titulo": "MAG Moveis Corporativos",
+      "iconesTopo": [
+        "fa-solid fa-bell",
+        "fa-solid fa-question-circle",
+        "fa fa-fw fa-sign-out-alt",
+        "fa fa-caret-down",
+        "fas fa-filter",
+        "fa-solid fa-diagram-project",
+        "fas fa-filter",
+        "fa-solid fa-diagram-project",
+        "fa-solid fa-rocket",
+        "fa-solid fa-circle-nodes",
+        "head-icon fa fa-house-laptop",
+        "head-icon fa fa-building"
+      ],
+      "logo": "url(\"https://task.magmoveiscorporativos.com.br/dist/images/mag/logo-cabecalho.svg\")",
+      "status": 200,
+      "url": "/tickets/roadmap"
+    },
+    "metas": {
+      "achados": [],
+      "titulo": "MAG Moveis Corporativos",
+      "iconesTopo": [
+        "fa-solid fa-bell",
+        "fa-solid fa-question-circle",
+        "fa fa-fw fa-sign-out-alt",
+        "fa fa-caret-down",
+        "fas fa-filter",
+        "fa-solid fa-diagram-project",
+        "fas fa-filter",
+        "fa-solid fa-diagram-project",
+        "fa-solid fa-rocket",
+        "fa-solid fa-circle-nodes",
+        "head-icon fa fa-house-laptop",
+        "head-icon fa fa-building"
+      ],
+      "logo": "url(\"https://task.magmoveiscorporativos.com.br/dist/images/mag/logo-cabecalho.svg\")",
+      "status": 200,
+      "url": "/goalcanvas/dashboard"
+    },
+    "meus-projetos": {
+      "achados": [],
+      "titulo": "MAG Moveis Corporativos",
+      "iconesTopo": [
+        "fa-solid fa-bell",
+        "fa-solid fa-question-circle",
+        "fa fa-fw fa-sign-out-alt",
+        "head-icon fa fa-briefcase",
+        "fa fa-caret-down",
+        "fa-solid fa-house-flag",
+        "fa-solid fa-rocket",
+        "fas fa-filter",
+        "fa-solid fa-diagram-project",
+        "fas fa-filter",
+        "fa-solid fa-diagram-project",
+        "head-icon fa fa-house-laptop",
+        "head-icon fa fa-building"
+      ],
+      "logo": "url(\"https://task.magmoveiscorporativos.com.br/dist/images/mag/logo-cabecalho.svg\")",
+      "status": 200,
+      "url": "/projects/showMy"
+    },
+    "todos-projetos": {
+      "achados": [],
+      "titulo": "MAG Moveis Corporativos",
+      "iconesTopo": [
+        "fa-solid fa-bell",
+        "fa-solid fa-question-circle",
+        "fa fa-fw fa-sign-out-alt",
+        "head-icon fa fa-briefcase",
+        "fa fa-caret-down",
+        "fa-solid fa-house-flag",
+        "fa-solid fa-rocket",
+        "fas fa-filter",
+        "fa-solid fa-diagram-project",
+        "fas fa-filter",
+        "fa-solid fa-diagram-project",
+        "head-icon fa fa-house-laptop",
+        "head-icon fa fa-building"
+      ],
+      "logo": "url(\"https://task.magmoveiscorporativos.com.br/dist/images/mag/logo-cabecalho.svg\")",
+      "status": 200,
+      "url": "/projects/showAll"
+    },
+    "projeto-config": {
+      "achados": [
+        "texto: Welcome to your first project in Leantime!<br />This is your space to organize tasks, track goals, and plan your work. Feel free to modify a",
+        "texto: Welcome to your first project in Leantime!"
+      ],
+      "titulo": "MAG Moveis Corporativos",
+      "iconesTopo": [
+        "fa-solid fa-bell",
+        "fa-solid fa-question-circle",
+        "fa fa-fw fa-sign-out-alt",
+        "fa fa-caret-down",
+        "fas fa-filter",
+        "fa-solid fa-diagram-project",
+        "fas fa-filter",
+        "fa-solid fa-diagram-project",
+        "fa-solid fa-rocket",
+        "fa-solid fa-circle-nodes",
+        "head-icon fa fa-house-laptop",
+        "head-icon fa fa-building"
+      ],
+      "logo": "url(\"https://task.magmoveiscorporativos.com.br/dist/images/mag/logo-cabecalho.svg\")",
+      "status": 200,
+      "url": "/projects/showProject/1"
+    },
+    "perfil": {
+      "achados": [],
+      "titulo": "MAG Moveis Corporativos",
+      "iconesTopo": [
+        "fa-solid fa-bell",
+        "fa-solid fa-question-circle",
+        "fa fa-fw fa-sign-out-alt",
+        "head-icon fa fa-briefcase",
+        "fa fa-caret-down",
+        "fa-solid fa-house-flag",
+        "fa-solid fa-rocket",
+        "fas fa-filter",
+        "fa-solid fa-diagram-project",
+        "fas fa-filter",
+        "fa-solid fa-diagram-project",
+        "head-icon fa fa-house-laptop",
+        "head-icon fa fa-building"
+      ],
+      "logo": "url(\"https://task.magmoveiscorporativos.com.br/dist/images/mag/logo-cabecalho.svg\")",
+      "status": 200,
+      "url": "/users/editOwn"
+    },
+    "usuarios": {
+      "achados": [],
+      "titulo": "MAG Moveis Corporativos",
+      "iconesTopo": [
+        "fa-solid fa-bell",
+        "fa-solid fa-question-circle",
+        "fa fa-fw fa-sign-out-alt",
+        "head-icon fa fa-briefcase",
+        "fa fa-caret-down",
+        "fa-solid fa-house-flag",
+        "fa-solid fa-rocket",
+        "fas fa-filter",
+        "fa-solid fa-diagram-project",
+        "fas fa-filter",
+        "fa-solid fa-diagram-project",
+        "head-icon fa fa-house-laptop",
+        "head-icon fa fa-building"
+      ],
+      "logo": "url(\"https://task.magmoveiscorporativos.com.br/dist/images/mag/logo-cabecalho.svg\")",
+      "status": 200,
+      "url": "/users/showAll"
+    },
+    "empresa": {
+      "achados": [],
+      "titulo": "MAG Moveis Corporativos",
+      "iconesTopo": [
+        "fa-solid fa-bell",
+        "fa-solid fa-question-circle",
+        "fa fa-fw fa-sign-out-alt",
+        "head-icon fa fa-briefcase",
+        "fa fa-caret-down",
+        "fa-solid fa-house-flag",
+        "fa-solid fa-rocket",
+        "fas fa-filter",
+        "fa-solid fa-diagram-project",
+        "fas fa-filter",
+        "fa-solid fa-diagram-project",
+        "head-icon fa fa-house-laptop",
+        "head-icon fa fa-building"
+      ],
+      "logo": "url(\"https://task.magmoveiscorporativos.com.br/dist/images/mag/logo-cabecalho.svg\")",
+      "status": 200,
+      "url": "/setting/editCompanySettings"
+    },
+    "integracoes": {
+      "achados": [],
+      "titulo": "MAG Moveis Corporativos",
+      "iconesTopo": [
+        "fa-solid fa-bell",
+        "fa-solid fa-question-circle",
+        "fa fa-fw fa-sign-out-alt",
+        "head-icon fa fa-briefcase",
+        "fa fa-caret-down",
+        "fa-solid fa-house-flag",
+        "fa-solid fa-rocket",
+        "fas fa-filter",
+        "fa-solid fa-diagram-project",
+        "fas fa-filter",
+        "fa-solid fa-diagram-project",
+        "head-icon fa fa-house-laptop",
+        "head-icon fa fa-building"
+      ],
+      "logo": "url(\"https://task.magmoveiscorporativos.com.br/dist/images/mag/logo-cabecalho.svg\")",
+      "status": 200,
+      "url": "/connector/show"
+    },
+    "horas": {
+      "achados": [],
+      "titulo": "MAG Moveis Corporativos",
+      "iconesTopo": [
+        "fa-solid fa-bell",
+        "fa-solid fa-question-circle",
+        "fa fa-fw fa-sign-out-alt",
+        "head-icon fa fa-briefcase",
+        "fa fa-caret-down",
+        "fa-solid fa-house-flag",
+        "fa-solid fa-rocket",
+        "fas fa-filter",
+        "fa-solid fa-diagram-project",
+        "fas fa-filter",
+        "fa-solid fa-diagram-project",
+        "head-icon fa fa-house-laptop",
+        "head-icon fa fa-building"
+      ],
+      "logo": "url(\"https://task.magmoveiscorporativos.com.br/dist/images/mag/logo-cabecalho.svg\")",
+      "status": 200,
+      "url": "/timesheets/showMy"
+    }
+  },
+  "removidas": {
+    "/plugins/marketplace": 404,
+    "/plugins/myapps": 404,
+    "/plugins/details": 404,
+    "/plugins/marketplaceplugins/getLatest": 404,
+    "/notifications/news/get": 404,
+    "/notifications/news-badge/get": 404,
+    "/help/support": 404,
+    "/tiptap-test.html": 404,
+    "/dist/images/logo-powered-by-leantime.png": 404
+  },
+  "erros_js": [],
+  "erros_http": [],
+  "i18n": [],
+  "tour": {
+    "src": "/dist/js/compiled-app.3.10.0.min.js?v=1790612892",
+    "portugues": true,
+    "ingles_restante": [
+      "Congratulations!"
+    ]
+  },
+  "css_tema": [
+    "https://task.magmoveiscorporativos.com.br/theme/default/css/dark.css?v=1790613365",
+    "https://task.magmoveiscorporativos.com.br/theme/default/css/custom.css?v=1790613365"
+  ]
+}

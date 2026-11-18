@@ -1,0 +1,86 @@
+{
+ "login": {
+  "status": 200,
+  "bundles": 13,
+  "sem_cache_bust": [
+   "compiled-htmx.3.10.0.min.js",
+   "compiled-htmx-extensions.3.10.0.min.js",
+   "compiled-frameworks.3.10.0.min.js",
+   "compiled-framework-plugins.3.10.0.min.js",
+   "compiled-global-component.3.10.0.min.js",
+   "compiled-calendar-component.3.10.0.min.js",
+   "compiled-table-component.3.10.0.min.js",
+   "compiled-tiptap-toolbar.3.10.0.min.js",
+   "compiled-tiptap-editor.3.10.0.min.js",
+   "compiled-gantt-component.3.10.0.min.js",
+   "compiled-chart-component.3.10.0.min.js",
+   "compiled-footer.3.10.0.min.js"
+  ],
+  "alterados_sem_cache_bust": [
+   "compiled-framework-plugins.3.10.0.min.js",
+   "compiled-global-component.3.10.0.min.js",
+   "compiled-tiptap-toolbar.3.10.0.min.js",
+   "compiled-tiptap-editor.3.10.0.min.js"
+  ],
+  "i18n_url": "/api/i18n?v=3.10.0"
+ },
+ "bundles": {
+  "compiled-app.3.10.0.min.js": "200 outro",
+  "compiled-framework-plugins.3.10.0.min.js": "200 original do Leantime",
+  "compiled-global-component.3.10.0.min.js": "200 original do Leantime",
+  "compiled-tiptap-editor.3.10.0.min.js": "200 original do Leantime",
+  "compiled-tiptap-toolbar.3.10.0.min.js": "200 original do Leantime",
+  "mag-calendario.js": "200 traduzido (igual ao overlay)"
+ },
+ "i18n": {
+  "status": 200,
+  "chaves_servidas": 2969,
+  "chaves_esperadas": 2909,
+  "ainda_em_ingles": 705,
+  "exemplos_em_ingles": {
+   "box.logicmodel.activities": "Activities",
+   "box.logicmodel.activities_subtitle": "What we do",
+   "box.logicmodel.impact": "Impact",
+   "box.logicmodel.impact_subtitle": "Ultimate change",
+   "box.logicmodel.inputs": "Inputs",
+   "box.logicmodel.inputs_subtitle": "Resources we invest",
+   "box.logicmodel.outcomes": "Outcomes",
+   "box.logicmodel.outcomes_subtitle": "Changes we expect"
+  },
+  "divergentes_do_esperado": 705,
+  "exemplos_divergentes": {
+   "box.logicmodel.activities": [
+    "Activities",
+    "Atividades"
+   ],
+   "box.logicmodel.activities_subtitle": [
+    "What we do",
+    "O que fazemos"
+   ],
+   "box.logicmodel.impact": [
+    "Impact",
+    "Impacto"
+   ],
+   "box.logicmodel.impact_subtitle": [
+    "Ultimate change",
+    "Mudança final"
+   ],
+   "box.logicmodel.inputs": [
+    "Inputs",
+    "Insumos"
+   ],
+   "box.logicmodel.inputs_subtitle": [
+    "Resources we invest",
+    "Recursos que investimos"
+   ],
+   "box.logicmodel.outcomes": [
+    "Outcomes",
+    "Resultados"
+   ],
+   "box.logicmodel.outcomes_subtitle": [
+    "Changes we expect",
+    "Mudanças que esperamos"
+   ]
+  }
+ }
+}

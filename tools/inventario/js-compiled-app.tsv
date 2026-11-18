@@ -1,0 +1,75 @@
+alert	Parabéns! Você superou seu recorde anterior, que era de 	1
+aria-label	Add new tag	1
+aria-label	Choose date	1
+aria-label	Empty column	1
+aria-label	Task: 	1
+label	Actual	1
+message	To-Do Updated	1
+text	A barra superior mostra o 'modo de trabalho' em que você está: dentro de um projeto, na sua área pessoal ou no modo empresa.	1
+text	A lista de tarefas recentes mostra as últimas tarefas adicionadas ao projeto e pode ser usada como caixa de entrada do projeto.	1
+text	Adicione tarefas pelo botão + de cada seção ou pelo menu de 3 pontos ao lado de cada tarefa.	1
+text	Aqui ficam os links da sua conta e as notificações.	1
+text	As metas ajudam a acompanhar o impacto mensurável dos seus projetos.	1
+text	As tarefas avançam da esquerda para a direita. Arraste os cartões para atualizar o status.	1
+text	Cada barra representa um marco. Você pode arrastá-las na linha do tempo, reordenar e redimensionar. Tudo o que fizer nesta tela atualiza as datas dos marcos.	1
+text	Cada meta tem um Objetivo (o que você quer alcançar) e uma Métrica (como você vai medir).	1
+text	Cada tarefa pode ser arrastada para mudar a ordem. Você também pode arrastar uma tarefa para o calendário para agendá-la.	1
+text	Complete	1
+text	Conforme você atualiza as métricas, a barra de progresso mostra quanto já avançou.	1
+text	Este é o seu quadro Kanban. Ele ajuda a visualizar o trabalho e a limitar o que está em andamento.	1
+text	Filtre as tarefas por campos como prioridade, status, projeto ou datas.	1
+text	Line Chart	2
+text	Mude o período da linha do tempo para ver mais meses do ano ou detalhar dia a dia.	1
+text	O checklist do projeto é uma referência rápida para ver se o projeto tem todas as informações necessárias para uma boa execução.	1
+text	O indicador de progresso mostra quanto do trabalho já foi concluído. Ele considera o tamanho das tarefas, a velocidade da equipe e os marcos do projeto.	1
+text	O menu lateral detalha o modo de trabalho atual e dá acesso às diferentes áreas. Tudo o que aparece aqui pertence ao modo de trabalho selecionado acima.	1
+text	O quadro da equipe mostra os membros deste projeto.	1
+text	O widget Minhas Tarefas mostra todas as tarefas atribuídas a você no momento.	1
+text	Os marcos ajudam a acompanhar as principais entregas e fases do projeto.	1
+text	Os widgets podem ser redimensionados e reposicionados arrastando e soltando.	1
+text	Pelo menu de 3 pontos você pode adicionar, remover e renomear colunas.	1
+text	Quando a tarefa estiver pronta, marque-a como concluída pelo menu de status.	1
+text	Quando for começar a trabalhar em uma tarefa, clique no botão de iniciar o cronômetro.	1
+text	Se você trabalha em sprints, use este menu para selecionar, criar e atualizar sprints.	1
+text	Seu painel é dividido em widgets que mostram informações focadas no seu trabalho.	1
+text	Use as atualizações de status para compartilhar rapidamente o andamento do projeto com a equipe, usando as cores vermelho, amarelo e verde. O status fica visível em todo o sistema.	1
+text	Use o seletor de projetos para alternar entre projetos. O menu lateral mostra tudo o que pertence ao projeto atual.	1
+text	Use os menus aqui para filtrar suas tarefas por projeto ou agrupá-las por prioridade, status, projeto ou datas.	1
+text	Vamos começar pelo básico para você se situar na navegação e nos principais elementos do sistema.	1
+text	Você pode filtrar os marcos e também ver as tarefas que fazem parte deles.	1
+text	Você pode ligar metas a marcos para acompanhar o progresso das metas pelas tarefas. Isso ajuda a identificar lacunas no planejamento.	1
+text	Você também pode agrupar as tarefas em raias no Kanban, para visualizar o trabalho por membro da equipe, prioridade ou marco.	1
+title	Adicione mais tarefas	1
+title	Agrupar tarefas	1
+title	Arrastar e ordenar	1
+title	Atualizações rápidas de status	1
+title	Checklist	1
+title	Colunas flexíveis	1
+title	Conclua uma tarefa	1
+title	Equipe	1
+title	Filtrar tarefas	1
+title	Filtro	1
+title	Fluxo de trabalho	1
+title	Inicie o cronômetro	1
+title	Marcos	1
+title	Marcos e metas	1
+title	Menu do projeto	1
+title	Menu lateral	1
+title	Metas	1
+title	Minhas tarefas	1
+title	Modos de trabalho	1
+title	Objetivos e métricas	1
+title	Ordenar tarefas	1
+title	Parabéns!	5
+title	Personalize seu painel	1
+title	Períodos	1
+title	Progresso	1
+title	Progresso da meta	1
+title	Raias	1
+title	Seletor de projetos	1
+title	Seu quadro Kanban	1
+title	Sprints	1
+title	Sua barra de perfil	1
+title	Tarefas recentes	1
+title	Widgets do painel	1
+title	👋 Bem-vindo ao tour do Painel	1

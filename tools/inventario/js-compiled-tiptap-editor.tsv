@@ -1,0 +1,75 @@
+content	(table_cell | table_header)*	1
+content	(tableCell | tableHeader)*	1
+content	block+	6
+content	column+	1
+content	detailsSummary detailsContent	1
+content	inline*	5
+content	list_item+	2
+content	paragraph block*	1
+content	table_row+	1
+content	tableRow+	1
+content	text*	1
+description	Add a blockquote	1
+description	Add a code snippet	1
+description	Add a horizontal divider	1
+description	Add collapsible section	1
+description	Create a checklist with tasks	1
+description	Create a numbered list	1
+description	Create a simple bullet list	1
+description	Create four-column layout	1
+description	Create three-column layout	1
+description	Create two-column layout	1
+description	Determines the markup language of the output.	1
+description	Embed video, docs, or other content	1
+description	Insert a document template	1
+description	Insert a LaTeX math block	1
+description	Insert a Mermaid diagram	1
+description	Insert a table	1
+description	Insert an emoji	1
+description	Insert auto-generated TOC	1
+description	Insert inline LaTeX formula	1
+description	Large section heading	1
+description	Limit the number of macro expansions to the specified number, to prevent e.g. infinite macro loops. If set to Infinity, the macro expander will try to fully expand as in LaTeX.	1
+description	Medium section heading	1
+description	Narrow left, wide right layout	1
+description	Render display math flush left.	1
+description	Render display math in leqno style (left-justified tags).	1
+description	Sidebars on both sides of content	1
+description	Small section heading	1
+description	Turn on strict / LaTeX faithfulness mode, which throws an error if the input uses features that are not supported by LaTeX.	1
+description	Upload or embed an image	1
+description	Wide left, narrow right layout	1
+label	2 Columns	1
+label	3 Columns	1
+label	4 Columns	1
+label	Bullet List	1
+label	Code Block	1
+label	Collapsible	1
+label	Diagram	1
+label	Divider	1
+label	Embed	1
+label	Emoji	1
+label	Heading 1	1
+label	Heading 2	1
+label	Heading 3	1
+label	Image	1
+label	Inline Math	1
+label	Math Equation	1
+label	Numbered List	1
+label	Quote	1
+label	Sidebar Both	1
+label	Sidebar Left	1
+label	Sidebar Right	1
+label	Table	1
+label	Table of Contents	1
+label	Task List	1
+label	Template	1
+placeholder	Click to edit...	1
+placeholder	Start writing your description...	1
+placeholder	Type '/' for commands or start writing...	2
+placeholder	Write a comment...	2
+placeholder	Write something …	1
+prompt	Edit LaTeX:	1
+prompt	Enter image URL:	1
+prompt	Enter LaTeX formula:	1
+text	Click to expand	1
